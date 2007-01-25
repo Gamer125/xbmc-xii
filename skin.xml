@@ -1,17 +1,14 @@
 <skin>
   <defaultresolution>pal</defaultresolution>
-  <defaultresolutionwide>pal16x9</defaultresolutionwide>
   <version>2.1</version>
   
-  <!-- amount to zoom skin to remove overscan compensation -->
-  <zoom>1.1</zoom>
-  
   <credits>
-    <skinname>Project Mayhem III</skinname>
-    <name>by Mathias Mahling aka. ChokeManiac</name>
-    <name>I would like to thank:</name>
-    <name>Jonathan Marshall - Julien [modhack] Cingoz</name>
-    <name>Christian Granqvist - Steven [Blackbolt] Weir</name>
-    <name>...and everybody who loves my skins!</name>
+    <skinname>Xii</skinname>
+    <name>by Franklin Shen aka. manturafs</name>
+    <name>Special thanks and credit goes to:</name>
+    <name>the entire XBMC team</name>
+    <name>PMIII team</name>
+		<name>people on the forums for help and support</name>
+    <name>...and everybody of the xbox scene!</name>
   </credits>
 </skin>

@@ -24,7 +24,6 @@
 		<include>controldefaults</include>
 		<disabledcolor>60ffffff</disabledcolor>
 		<textoffsetx>17</textoffsetx>
-		<aligny>center</aligny>
 	</default>
 	<default type="togglebutton">
 		<posx>185</posx>
