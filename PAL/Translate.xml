@@ -1,6 +1,7 @@
 <includes>
 <!-- Start home includes -->
-	<include name="systemlabel"><label>Xii</label></include>
+	<include name="menulabel"><label>Menu</label></include>
+	<include name="memorylabel"><label>Data Management</label></include>
 	<include name="homemenulabel"><label>Xii Menu</label></include>
 	<include name="system"><label>Xii Options</label></include>
 	<include name="button10"><label>Internet</label></include>

@@ -18,12 +18,8 @@
 		<posy>200</posy>
 		<width>150</width>
 		<height>33</height>
-		<texturefocus>button-focus.png</texturefocus>
-		<texturenofocus>button-nofocus.png</texturenofocus>
-		<font>font13</font>
+		<align>center</align>
 		<include>controldefaults</include>
-		<disabledcolor>60ffffff</disabledcolor>
-		<textoffsetx>17</textoffsetx>
 	</default>
 	<default type="togglebutton">
 		<posx>185</posx>
