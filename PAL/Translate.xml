@@ -13,6 +13,7 @@
 	<include name="backlabel"><label>Back</label></include>
 	<include name="menulabel"><label>Menu</label></include>
 	<include name="memorylabel"><label>Data Management</label></include>
+	<include name="filelabel"><label>File Manager</label></include>
 	<include name="4a"><label>Xii System Settings 1</label></include>
 	<include name="4b"><label>Xii System Settings 2</label></include>
 	<include name="4c"><label>Xii System Settings 3</label></include>
