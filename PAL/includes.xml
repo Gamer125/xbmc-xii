@@ -8,7 +8,7 @@
 		<animation effect="fade" time="200">VisibleChange</animation>
 	</include>
 	<include name="homebuttonanimation">
-		<animation effect="fade" time="400">WindowOpen</animation>
+		<animation effect="fade" time="300">WindowOpen</animation>
 		<animation effect="fade" time="200">WindowClose</animation>
 	</include>
 	<include name="contentpanelslide">

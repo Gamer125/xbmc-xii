@@ -34,17 +34,19 @@
 		</control>
 
 <!-- labels -->
-  	<control type="label">
-  		<description>Menu label</description>
-  		<posx>360</posx>
-  		<posy>475</posy>
-  		<include>homemenulabel</include>
-  		<align>center</align>
-  		<font>xii16</font>
-  		<include>textcolorblue</include>
-  	</control>
-		<control type="group">
-			<animation effect="fade" time="500">VisibleChange</animation>
+  	<control type="group">
+			<animation effect="fade" start="0" end="0" time="1">VisibleChange</animation>
+  		<animation effect="fade" start="100" end="0" time="500" condition="Window.Next(1110)">WindowClose</animation>
+  		<animation effect="fade" start="0" end="100" time="300" condition="Window.Previous(1110)">WindowOpen</animation>
+  		<control type="label">
+    		<description>Menu label</description>
+    		<posx>360</posx>
+    		<posy>475</posy>
+    		<include>homemenulabel</include>
+    		<align>center</align>
+    		<font>xii16</font>
+    		<include>textcolorblue</include>
+    	</control>
 			<control type="label">
 				<description>time label</description>
 				<posx>360</posx>
@@ -55,21 +57,20 @@
 				<font>xii36</font>
 				<include>textcolorgrey</include>
 			</control>
+  		<control type="rss" id="1">
+  			<description>rss feed</description>
+  			<posx>0</posx>
+  			<posy>555</posy>
+  			<width>720</width>
+  			<font>bold13</font>
+  			<style>bold</style>
+  			<urlset>1</urlset>
+  			<include>rss-headline</include>
+  			<include>rss-title</include>
+  			<include>textcolorgrey</include>
+  			<visible>!Player.HasAudio | Skin.HasSetting(NoAudioRSS)</visible>
+  		</control>
 		</control>
-		<control type="rss" id="1">
-			<description>rss feed</description>
-			<posx>0</posx>
-			<posy>555</posy>
-			<width>720</width>
-			<font>bold13</font>
-			<style>bold</style>
-			<urlset>1</urlset>
-			<include>rss-headline</include>
-			<include>rss-title</include>
-			<include>textcolorgrey</include>
-			<visible>!Player.HasAudio | Skin.HasSetting(NoAudioRSS)</visible>
-		</control>
-
 <!-- bottom buttons -->
 		<control type="group" id="9001">
 			<control type="group" id="9002">
