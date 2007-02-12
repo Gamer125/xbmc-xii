@@ -1,4 +1,4 @@
-﻿<window>
+<window>
 	<defaultcontrol always="true">10</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
@@ -7,6 +7,7 @@
 			<onfocus>ReplaceWindow(Home)</onfocus>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
+    	<animation effect="fade" delay="3000" end="100">Focus</animation>
 		</control>
 		<control type="image">
 			<description>Background image</description>
@@ -14,8 +15,7 @@
 			<posy>0</posy>
 			<width>720</width>
 			<height>576</height>
-			<texture>background-plain.png</texture>
-			<visible>system.hasloginscreen</visible>
+			<texture>background-startup.png</texture>
 		</control>
 	</controls>
 </window>

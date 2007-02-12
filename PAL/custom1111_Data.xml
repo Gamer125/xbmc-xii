@@ -28,11 +28,11 @@
 		</control>
 		<control type="image" id="1">
 			<description>data tab image</description>
-			<posx>35</posx>
-			<posy>37</posy>
-			<width>41</width>
-			<height>41</height>
-			<texture>settings-network-nofocus.png</texture>
+			<posx>42</posx>
+			<posy>47</posy>
+			<width>25</width>
+			<height>25</height>
+			<texture>icon-data.png</texture>
 		</control>
 		<control type="label" id="1">
 			<description>white tab label </description>
@@ -78,8 +78,8 @@
   			<posy>155</posy>
   			<width>275</width>
   			<height>233</height>
-  			<texturefocus>button-memory.png</texturefocus>
-  			<texturenofocus>button-memory.png</texturenofocus>
+  			<texturefocus>button-file.png</texturefocus>
+  			<texturenofocus>button-file.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
   			<textoffsety>175</textoffsety>
 				<include>textcolorblack</include>
@@ -99,8 +99,8 @@
   			<posy>155</posy>
   			<width>275</width>
   			<height>233</height>
-  			<texturefocus>button-settings.png</texturefocus>
-  			<texturenofocus>button-settings.png</texturenofocus>
+  			<texturefocus>button-gamesave.png</texturefocus>
+  			<texturenofocus>button-gamesave.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
   			<textoffsety>175</textoffsety>
 				<include>textcolorblack</include>

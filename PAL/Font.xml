@@ -27,6 +27,11 @@
 			<style>bold</style>
 		</font>
 		<font>
+			<name>font20</name>
+			<filename>normal.ttf</filename>
+			<size>20</size>
+		</font>
+		<font>
 			<name>font28</name>
 			<filename>normal.ttf</filename>
 			<size>28</size>

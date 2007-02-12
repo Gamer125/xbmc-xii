@@ -14,66 +14,16 @@
 			<posy>0</posy>
 			<width>720</width>
 			<height>576</height>
-			<texture>background-settings.png</texture>
+			<texture>background-startup.png</texture>
 		</control>
-		<control type="label" id="1">
-			<description>Xbox media center label</description>
-			<posx>200</posx>
-			<posy>63</posy>
-			<align>right</align>
-			<label>xbox media center</label>
-			<font>special12</font>
-			<include>homemisc</include>
-		</control>
-		<control type="label" id="1">
-			<description>Login label</description>
-			<posx>207</posx>
-			<posy>63</posy>
-			<align>left</align>
-			<label>20096</label>
-			<font>special13</font>
-			<include>homemisc</include>
-		</control>
-		<control type="group">
-			<posx>410</posx>
-			<posy>113</posy>
-			<include>homemisc</include>
-			<control type="label" id="0">
-				<description>Date label</description>
-				<posx>0</posx>
-				<posy>0</posy>
-				<label>date</label>
-				<info>System.Date</info>
-				<align>right</align>
-				<font>special12</font>
-			</control>
-			<control type="label" id="1">
-				<description>Suffix label</description>
-				<posx>10</posx>
-				<posy>-2</posy>
-				<label>|</label>
-				<align>left</align>
-				<font>special12</font>
-				<include>textcolorgrey</include>
-			</control>
-			<control type="label" id="0">
-				<description>Time label</description>
-				<posx>20</posx>
-				<posy>0</posy>
-				<label>time</label>
-				<info>System.Time</info>
-				<align>left</align>
-				<font>special12</font>
-				<include>textcolorgrey</include>
-			</control>
-		</control>
+
 		<control type="group">
 			<posy>20</posy>
 			<include>contentpanelslide</include>
 			<control type="image" id="1">
 				<description>Profile background</description>
 				<posx>137</posx>
-				<posy>121</posy>
+				<posy>71</posy>
 				<width>446</width>
 				<height>406</height>
 				<texture>dialog-panelprofile.png</texture>
@@ -81,27 +31,27 @@
 			<control type="label" id="2">
 				<description>Heading Label</description>
 				<posx>165</posx>
-				<posy>148</posy>
+				<posy>98</posy>
 				<width>420</width>
 				<align>left</align>
 				<label>-</label>
 				<font>special13</font>
-				<textcolor>DDced8da</textcolor>
+				<include>textcolorwhite</include>
 			</control>
 			<control type="label" id="3">
 				<description>Profile Count Label</description>
-				<posx>565</posx>
-				<posy>148</posy>
+				<posx>545</posx>
+				<posy>98</posy>
 				<width>420</width>
 				<align>right</align>
 				<label>-</label>
 				<font>special13</font>
-				<textcolor>DDced8da</textcolor>
+				<include>textcolorwhite</include>
 			</control>
 			<control type="listcontrol" id="52">
 				<description>Big listcontrol</description>
 				<posx>165</posx>
-				<posy>190</posy>
+				<posy>140</posy>
 				<width>400</width>
 				<height>300</height>
 				<spinwidth>16</spinwidth>
@@ -139,20 +89,21 @@
 			</control>
 		</control>
 		<control type="button" id="98">
-			<description>Submenu button</description>
-			<posx>610</posx>
-			<posy>503</posy>
-			<width>35</width>
-			<height>35</height>
+			<description>Power button</description>
+			<posx>330</posx>
+			<posy>481</posy>
+			<width>60</width>
+			<height>60</height>
 			<onclick>ActivateWindow(ShutdownMenu)</onclick>
-			<texturefocus>login-power.gif</texturefocus>
-			<texturenofocus>login-power.png</texturenofocus>
+			<texturefocus>icon-power-focus.png</texturefocus>
+			<texturenofocus>icon-power.png</texturenofocus>
 			<label>-</label>
 			<onleft>52</onleft>
 			<onright>52</onright>
 			<onup>52</onup>
 			<ondown>52</ondown>
 			<include>contentpanelslide</include>
+			<animation effect="zoom" end="324,475,72,72" time="250">Focus</animation>
 		</control>
 		<control type="image" id="0">
 			<description>bg preview</description>

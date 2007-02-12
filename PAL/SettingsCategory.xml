@@ -28,7 +28,7 @@
 		</control>
 		<control type="image" id="1">
 			<description>white tab image 2</description>
-			<posx>45</posx>
+			<posx>65</posx>
 			<posy>37</posy>
 			<width>400</width>
 			<height>41</height>
@@ -36,7 +36,7 @@
 		</control>
 		<control type="label" id="1">
 			<description>white tab label 1</description>
-			<posx>55</posx>
+			<posx>75</posx>
 			<posy>40</posy>
 			<font>font28</font>
 			<height>41</height>
