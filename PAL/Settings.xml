@@ -416,7 +416,7 @@
   		<texture>arrow-left.png</texture>
 			<visible>Control.IsVisible(6) | Control.IsVisible(7) |Control.IsVisible(8) | Control.IsVisible(9) | Control.IsVisible(10) | Control.IsVisible(11) |Control.IsVisible(12) | Control.IsVisible(13)</visible>	
   		<include>homebuttonanimation</include>
-			<animation effect="fade" time="300">VisibleChange</animation>
+			<animation effect="fade" time="150">VisibleChange</animation>
 		</control>
 		<control type="image" id="1">
   		<description>Right Arrow</description>
@@ -427,7 +427,7 @@
   		<texture>arrow-right.png</texture>
 			<visible>Control.IsVisible(2) | Control.IsVisible(3) |Control.IsVisible(4) | Control.IsVisible(5) | Control.IsVisible(6) | Control.IsVisible(7) |Control.IsVisible(8) | Control.IsVisible(9)</visible>
   		<include>homebuttonanimation</include>
-			<animation effect="fade" time="300">VisibleChange</animation>
+			<animation effect="fade" time="150">VisibleChange</animation>
 		</control>
 		<control type="image" id="0">
 			<description>bg preview</description>

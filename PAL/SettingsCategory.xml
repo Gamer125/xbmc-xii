@@ -34,28 +34,87 @@
 			<height>41</height>
 			<texture>background-tab-white.png</texture>
 		</control>
-		<control type="label" id="1">
-			<description>white tab label 1</description>
-			<posx>75</posx>
-			<posy>40</posy>
-			<font>font28</font>
+		
+		<control id="2" type="label">
+  		<description>white tab label 1</description>
+    	<posx>75</posx> 
+    	<posy>40</posy>
 			<height>41</height>
+    	<align>left</align> 
+			<font>font28</font>
 			<include>textcolorblack</include>
-			<info>System.CurrentWindow</info>
-			<align>left</align>
 		</control>
+		
+    <control type="image">
+      <description>Left Fading button</description>
+      <posx>125</posx>
+      <posy>100</posy>
+      <width>150</width>
+      <height>33</height>
+      <texture diffuse="fade2.png">button-long-nofocus.png</texture>
+     </control>
+		
+    <control type="image">
+      <description>Left Arrow</description>
+      <posx>177</posx>
+      <posy>105</posy>
+      <width>25</width>
+      <height>25</height>
+      <texture>scroll-left.png</texture>
+     </control>
+		
+    <control type="image">
+      <description>Middle button Focus</description>
+      <posx>285</posx>
+      <posy>100</posy>
+      <width>150</width>
+      <height>33</height>
+      <texture>button-long-focus.png</texture>
+			<visible>!ControlGroup(5).HasFocus(0) | !Control.HasFocus(25)</visible>
+     </control>
+		
+    <control type="image">
+      <description>Middle button</description>
+      <posx>285</posx>
+      <posy>100</posy>
+      <width>150</width>
+      <height>33</height>
+      <texture>button-long-nofocus.png</texture>
+			<visible>ControlGroup(5).HasFocus(0) | Control.HasFocus(25)</visible>
+     </control>
+		
+    <control type="image">
+      <description>Right Fading button</description>
+      <posx>445</posx>
+      <posy>100</posy>
+      <width>150</width>
+      <height>33</height>
+      <texture diffuse="fade1.png">button-long-nofocus.png</texture>
+     </control>
+		
+    <control type="image">
+      <description>Right Arrow</description>
+      <posx>518</posx>
+      <posy>105</posy>
+      <width>25</width>
+      <height>25</height>
+      <texture>scroll-right.png</texture>
+     </control>
+	
 		<control type="grouplist" id="3">
 			<description>button area</description>
-			<posx>50</posx>
-			<posy>120</posy>
+			<posx>285</posx>
+			<posy>100</posy>
 			<width>150</width>
 			<height>300</height>
-			<include>buttonpanelslide</include>
-			<onleft>5</onleft>
-			<onright>5</onright>
+			<orientation>horizontal</orientation>
+			<onleft>3</onleft>
+			<onright>3</onright>
 			<onup>3</onup>
-			<ondown>3</ondown>
+			<ondown>5</ondown>
+			<scrollspeed>2</scrollspeed>
 		</control>
+		
 		<control type="button" id="10">
 			<description>Default Category Button</description>
 			<posx>208</posx>
@@ -64,13 +123,14 @@
 			<font>special12</font>
 			<aligny>center</aligny>
 			<include>textcolorblack</include>
-			<texturefocus>button-long-focus.png</texturefocus>
-			<texturenofocus>button-long-nofocus.png</texturenofocus>
+			<texturefocus>-</texturefocus>
+			<texturenofocus>-</texturenofocus>
 		</control>
+		
 		<control type="grouplist" id="5">
 			<description>control area</description>
-			<posx>211</posx>
-			<posy>121</posy>
+			<posx>145</posx>
+			<posy>135</posy>
 			<width>445</width>
 			<height>380</height>
 			<itemgap>0</itemgap>
@@ -78,9 +138,10 @@
 			<include>contentpanelslide</include>
 			<onleft>3</onleft>
 			<onright>60</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
+			<onup>3</onup>
+			<ondown>25</ondown>
 		</control>
+		
 		<control type="button" id="7">
 			<description>Default Button</description>
 			<posx>530</posx>
@@ -153,8 +214,8 @@
   		<onclick>ActivateWindow(1110)</onclick>
   		<onleft>14</onleft>
   		<onright>14</onright>
-  		<onup>8999</onup>
-  		<ondown>8999</ondown>
+  		<onup>5</onup>
+  		<ondown>25</ondown>
   		<texturefocus>button-big-focus.png</texturefocus>
   		<texturenofocus>button-big-nofocus.png</texturenofocus>
 			<include>homebuttonanimation</include>
