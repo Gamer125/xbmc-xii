@@ -56,7 +56,7 @@
 		<textureheight>26</textureheight>
 		<font>font13</font>
 		<include>listselectedcolor</include>
-		<textcolor2>60ffffff</textcolor2>
+		<textcolor2>ff000000</textcolor2>
 		<include>controldefaults</include>
 		<suffix>|</suffix>
 		<textxoff>3</textxoff>
