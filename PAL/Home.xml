@@ -862,63 +862,7 @@
 			<font>xii14</font>
 			<include>homemediainfo</include>
 		</control>
-		<!-- System Info -->
-		<control type="group">
-			<visible>Control.HasFocus(14) + !Skin.HasSetting(homepageSysteminfo)</visible>
-			<include>homestatsinfo</include>
-			<control type="image">
-				<description>system info gradient</description>
-				<posx>315</posx>
-				<posy>338</posy>
-				<width>400</width>
-				<height>99</height>
-				<texture>gradient.png</texture>
-			</control>
-			<control type="image">
-				<description>settings image</description>
-				<posx>555</posx>
-				<posy>338</posy>
-				<width>90</width>
-				<height>99</height>
-				<texture>homeinfo-system.png</texture>
-			</control>
-			<control type="label">
-				<description>Settings label</description>
-				<width>255</width>
-				<posx>540</posx>
-				<posy>340</posy>
-				<label>10511</label>
-				<align>right</align>
-				<font>xii15</font>
-			</control>
-			<control type="label">
-				<description>Ip Address label</description>
-				<width>255</width>
-				<posx>540</posx>
-				<posy>365</posy>
-				<info>Network.IPAddress</info>
-				<align>right</align>
-				<font>xii16</font>
-			</control>
-			<control type="label">
-				<description>CPU Temperature Label</description>
-				<width>255</width>
-				<posx>540</posx>
-				<posy>395</posy>
-				<label>$INFO[System.CPUTemperature]</label>
-				<align>right</align>
-				<font>xii14</font>
-			</control>
-			<control type="label">
-				<description>GPU Temperature Label</description>
-				<width>255</width>
-				<posx>540</posx>
-				<posy>415</posy>
-				<label>$INFO[System.GPUTemperature]</label>
-				<align>right</align>
-				<font>xii14</font>
-			</control>
-		</control>
+		
 		<!-- weather Info -->
 		<control type="group">
 			<visible>Control.HasFocus(6) + Weather.IsFetched + !Skin.HasSetting(homepageWeatherinfo)</visible>

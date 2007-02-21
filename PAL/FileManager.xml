@@ -16,7 +16,7 @@
 			<posy>83</posy>
 			<width>720</width>
 			<height>369</height>
-			<texture>background-lightgrey.png</texture>
+			<texture>background-greylines.png</texture>
 		</control>
 		<control type="image" id="1">
 			<description>white tab image 1</description>
@@ -42,9 +42,17 @@
 			<height>20</height>
 			<texture>icon-data2.png</texture>
 		</control>
+		<control type="image" id="1">
+			<description>file tab image</description>
+			<posx>78</posx>
+			<posy>44</posy>
+			<width>30</width>
+			<height>30</height>
+			<texture>icon-data2.png</texture>
+		</control>
 		<control type="label" id="1">
 			<description>white tab label 1</description>
-			<posx>75</posx>
+			<posx>125</posx>
 			<posy>40</posy>
 			<font>font28</font>
 			<height>41</height>
@@ -54,6 +62,7 @@
 		</control>
 		<control type="group">
 			<include>contentpanelslide</include>
+			
 			<control type="image">
 				<description>filemanager List Sel Left</description>
 				<posx>30</posx>
@@ -62,6 +71,14 @@
 				<height>30</height>
 				<texture>button-big.png</texture>
 				<visible>Control.HasFocus(20)</visible>
+			</control>
+			<control type="image">
+				<description>filemanager List Overlay Left</description>
+				<posx>30</posx>
+				<posy>115</posy>
+				<width>325</width>
+				<height>310</height>
+				<texture>button-metal.png</texture>
 			</control>
 			<control type="fadelabel" id="101">
 				<description>current Directory text label left</description>
@@ -87,7 +104,7 @@
 				<include>listselectedcolor</include>
 				<posx>50</posx>
 				<posy>130</posy>
-				<width>280</width>
+				<width>285</width>
 				<height>320</height>
 				<texturefocus>input-focus.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
@@ -96,15 +113,9 @@
 				<onup>20</onup>
 				<ondown>20</ondown>
 				<font>special12</font>
+				<textyoff>-3</textyoff>
+				<textyoff2>-3</textyoff2>
 				<include>textcolorblack</include>
-			</control>
-			<control type="image">
-				<description>filemanager List Overlay Left</description>
-				<posx>30</posx>
-				<posy>115</posy>
-				<width>325</width>
-				<height>310</height>
-				<texture>glass.png</texture>
 			</control>
 			
 			
@@ -140,7 +151,7 @@
 				<include>listselectedcolor</include>
 				<posx>381</posx>
 				<posy>132</posy>
-				<width>280</width>
+				<width>285</width>
 				<height>320</height>
 				<texturefocus>input-focus.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
@@ -149,6 +160,8 @@
 				<onup>21</onup>
 				<ondown>21</ondown>
 				<font>special12</font>
+				<textyoff>-3</textyoff>
+				<textyoff2>-3</textyoff2>
 				<include>textcolorblack</include>
 			</control>
 			<control type="image">
@@ -157,7 +170,7 @@
 				<posy>115</posy>
 				<width>325</width>
 				<height>310</height>
-				<texture>glass.png</texture>
+				<texture>button-glass.png</texture>
 			</control>
 		</control>
 		<control type="group">

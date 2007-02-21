@@ -8,41 +8,57 @@
 			<posy>0</posy>
 			<width>720</width>
 			<height>576</height>
-			<texture>background-apps.png</texture>
+			<texture>background-blackbase.png</texture>
 		</control>
-		<control type="label">
-			<description>xbox media center label</description>
-			<posx>200</posx>
-			<posy>63</posy>
-			<align>right</align>
-			<label>xbox media center</label>
-			<font>special12</font>
+		<control type="image" id="1">
+			<description>background middle overlay</description>
+			<posx>0</posx>
+			<posy>83</posy>
+			<width>720</width>
+			<height>369</height>
+			<texture>background-bluesquares.png</texture>
 		</control>
-		<control type="label">
-			<description>description label</description>
-			<posx>207</posx>
-			<posy>63</posy>
+		<control type="image" id="1">
+			<description>white tab image 1</description>
+			<posx>25</posx>
+			<posy>45</posy>
+			<width>400</width>
+			<height>33</height>
+			<texture>background-tab-grey.png</texture>
+		</control>
+		<control type="image" id="1">
+			<description>white tab image 2</description>
+			<posx>65</posx>
+			<posy>37</posy>
+			<width>400</width>
+			<height>41</height>
+			<texture>background-tab-white.png</texture>
+		</control>
+		<control type="image" id="1">
+			<description>data tab image</description>
+			<posx>38</posx>
+			<posy>53</posy>
+			<width>20</width>
+			<height>20</height>
+			<texture>icon-data2.png</texture>
+		</control>
+		<control type="image" id="1">
+			<description>gamesave tab image</description>
+			<posx>78</posx>
+			<posy>44</posy>
+			<width>30</width>
+			<height>30</height>
+			<texture>icon-data2.png</texture>
+		</control>
+		<control type="label" id="1">
+			<description>white tab label 1</description>
+			<posx>125</posx>
+			<posy>40</posy>
+			<font>font28</font>
+			<height>41</height>
+			<include>textcolorblack</include>
+			<include>4f</include>
 			<align>left</align>
-			<label>20315</label>
-			<font>special13</font>
-		</control>
-		<control type="image">
-			<description>contentpanel slice</description>
-			<posx>160</posx>
-			<posy>108</posy>
-			<width>64</width>
-			<height>468</height>
-			<texture>contentpanel_left.png</texture>
-			<include>contentpanelslide</include>
-		</control>
-		<control type="image">
-			<description>contentpanel slice</description>
-			<posx>224</posx>
-			<posy>108</posy>
-			<width>500</width>
-			<height>468</height>
-			<texture>contentpanel.png</texture>
-			<include>contentpanelslide</include>
 		</control>
 		<control type="label" id="12">
 			<description>number of files text label</description>

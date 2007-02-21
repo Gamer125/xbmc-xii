@@ -48,7 +48,7 @@
     <control type="image">
       <description>Left Fading button</description>
       <posx>125</posx>
-      <posy>100</posy>
+      <posy>95</posy>
       <width>150</width>
       <height>33</height>
       <texture diffuse="fade2.png">button-long-nofocus.png</texture>
@@ -57,7 +57,7 @@
     <control type="image">
       <description>Left Arrow</description>
       <posx>177</posx>
-      <posy>105</posy>
+      <posy>100</posy>
       <width>25</width>
       <height>25</height>
       <texture>scroll-left.png</texture>
@@ -66,7 +66,7 @@
     <control type="image">
       <description>Middle button Focus</description>
       <posx>285</posx>
-      <posy>100</posy>
+      <posy>95</posy>
       <width>150</width>
       <height>33</height>
       <texture>button-long-focus.png</texture>
@@ -76,7 +76,7 @@
     <control type="image">
       <description>Middle button</description>
       <posx>285</posx>
-      <posy>100</posy>
+      <posy>95</posy>
       <width>150</width>
       <height>33</height>
       <texture>button-long-nofocus.png</texture>
@@ -86,7 +86,7 @@
     <control type="image">
       <description>Right Fading button</description>
       <posx>445</posx>
-      <posy>100</posy>
+      <posy>95</posy>
       <width>150</width>
       <height>33</height>
       <texture diffuse="fade1.png">button-long-nofocus.png</texture>
@@ -95,7 +95,7 @@
     <control type="image">
       <description>Right Arrow</description>
       <posx>518</posx>
-      <posy>105</posy>
+      <posy>100</posy>
       <width>25</width>
       <height>25</height>
       <texture>scroll-right.png</texture>
@@ -104,7 +104,7 @@
 		<control type="grouplist" id="3">
 			<description>button area</description>
 			<posx>285</posx>
-			<posy>100</posy>
+			<posy>95</posy>
 			<width>150</width>
 			<height>300</height>
 			<orientation>horizontal</orientation>
