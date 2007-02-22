@@ -1071,15 +1071,15 @@
 	</include>
 	<include name="AllViewCommonPageControls">
 		<control type="scrollbar" id="60">
-			<posx>655</posx>
-			<posy>125</posy>
+			<posx>690</posx>
+			<posy>100</posy>
 			<width>17</width>
-			<height>375</height>
+			<height>325</height>
 			<texturesliderbackground border="4">scrollbar_background.png</texturesliderbackground>
 			<texturesliderbar border="3">scrollbar_bar.png</texturesliderbar>
 			<texturesliderbarfocus border="3">scrollbar_bar_focus.png</texturesliderbarfocus>
-			<textureslidernib>scrollbar_nib.png</textureslidernib>
-			<textureslidernibfocus>scrollbar_nib_focus.png</textureslidernibfocus>
+			<textureslidernib>scrollbar_nib.PNG</textureslidernib>
+			<textureslidernibfocus>scrollbar_nib_focus.PNG</textureslidernibfocus>
 			<onleft>50</onleft>
 			<onright>9000</onright>
 			<showonepage>false</showonepage>

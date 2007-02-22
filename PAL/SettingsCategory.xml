@@ -132,7 +132,7 @@
 			<posx>145</posx>
 			<posy>135</posy>
 			<width>445</width>
-			<height>380</height>
+			<height>310</height>
 			<itemgap>0</itemgap>
 			<pagecontrol>90</pagecontrol>
 			<include>contentpanelslide</include>
