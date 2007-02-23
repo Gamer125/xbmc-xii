@@ -1,40 +1,43 @@
 @echo off
-ECHO ----------------------------------------
-echo Creating Project Mayhem III Build Folder
+ECHO ------------------------------
+ECHO Creating "Xii" Build Folder
 rmdir BUILD /S /Q
 md BUILD
 
-Echo .svn>exclude.txt
-Echo Thumbs.db>>exclude.txt
-Echo Desktop.ini>>exclude.txt
-Echo dsstdfx.bin>>exclude.txt
-Echo exclude.txt>>exclude.txt
+ECHO ------------------------------
+ECHO Creating XPR Files...
+CALL media\XBMCTex.bat
 
-ECHO ----------------------------------------
-ECHO Creating XPR File...
-START /B /WAIT ..\..\Tools\XBMCTex\XBMCTex -input media -quality high -output media
+ECHO ------------------------------
+ECHO Copying XPR Files...
+xcopy "media\*.xpr" "BUILD\Xii\media\" /Q /I /Y
 
-ECHO ----------------------------------------
-ECHO Copying XPR File...
-xcopy "media\Textures.xpr" "BUILD\Project Mayhem III\media\" /Q /I /Y
-
-ECHO ----------------------------------------
+ECHO ------------------------------
 ECHO Cleaning Up...
-del "media\Textures.xpr"
+del "media\*.xpr"
 
-ECHO ----------------------------------------
-ECHO XPR Texture Files Created...
+ECHO ------------------------------
 ECHO Building Skin Directory...
-xcopy "720p" "BUILD\Project Mayhem III\720p" /E /Q /I /Y /EXCLUDE:exclude.txt
-xcopy "1080i" "BUILD\Project Mayhem III\1080i" /E /Q /I /Y /EXCLUDE:exclude.txt
-xcopy "fonts" "BUILD\Project Mayhem III\fonts" /E /Q /I /Y /EXCLUDE:exclude.txt
-xcopy "NTSC" "BUILD\Project Mayhem III\NTSC" /E /Q /I /Y /EXCLUDE:exclude.txt
-xcopy "NTSC16x9" "BUILD\Project Mayhem III\NTSC16x9" /E /Q /I /Y /EXCLUDE:exclude.txt
-xcopy "PAL" "BUILD\Project Mayhem III\PAL" /E /Q /I /Y /EXCLUDE:exclude.txt
-xcopy "PAL16x9" "BUILD\Project Mayhem III\PAL16x9" /E /Q /I /Y /EXCLUDE:exclude.txt
-xcopy "sounds\*.*" "BUILD\Project Mayhem III\sounds\" /Q /I /Y /EXCLUDE:exclude.txt
+xcopy "1080i" "BUILD\Xii\1080i" /E /Q /I /Y
+xcopy "720p" "BUILD\Xii\720p" /E /Q /I /Y
+xcopy "extras" "BUILD\Xii\extras" /E /Q /I /Y
+xcopy "NTSC" "BUILD\Xii\NTSC" /E /Q /I /Y
+xcopy "NTSC16x9" "BUILD\Xii\NTSC16x9" /E /Q /I /Y
+xcopy "PAL" "BUILD\Xii\PAL" /E /Q /I /Y
+xcopy "PAL16x9" "BUILD\Xii\PAL16x9" /E /Q /I /Y
+xcopy "fonts" "BUILD\Xii\fonts" /E /Q /I /Y
+xcopy "sounds" "BUILD\Xii\sounds" /E /Q /I /Y
+xcopy "*.xml" "BUILD\Xii\" /Q /I /Y
+xcopy "*.txt" "BUILD\Xii\" /Q /I /Y
+xcopy "Extra Stuff" "BUILD\Extra Stuff" /E /Q /I /Y
 
-copy *.xml "BUILD\Project Mayhem III\"
-copy *.txt "BUILD\Project Mayhem III\"
+ECHO ------------------------------
+ECHO Removing SVN directories from build...
+FOR /R BUILD %%d IN (SVN) DO @RD /S /Q "%%d" 2>NUL
 
-del exclude.txt
+ECHO Build Complete - Scroll Up to check for errors.
+ECHO Final build is located in the BUILD directory
+ECHO Have Fun
+
+
+pause

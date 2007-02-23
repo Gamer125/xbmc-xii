@@ -20,6 +20,7 @@
 		<height>33</height>
 		<align>center</align>
 		<include>controldefaults</include>
+		<font>font14</font>
 	</default>
 	<default type="togglebutton">
 		<posx>185</posx>

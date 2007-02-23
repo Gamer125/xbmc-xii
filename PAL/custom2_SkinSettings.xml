@@ -59,7 +59,7 @@
 				<selected>!Skin.HasSetting(animated)</selected>
 				<onleft>9001</onleft>
 				<onright>9001</onright>
-				<onup>21</onup>
+				<onup>22</onup>
 				<ondown>21</ondown>
 				<textoffsetx>7</textoffsetx>
 				<texturefocus>list-focus.png</texturefocus>
@@ -76,14 +76,30 @@
 				<onleft>9001</onleft>
 				<onright>9001</onright>
 				<onup>20</onup>
-				<ondown>25</ondown>
+				<ondown>22</ondown>
+				<textoffsetx>7</textoffsetx>
+				<texturefocus>list-focus.png</texturefocus>
+				<texturenofocus>-</texturenofocus>
+			</control>
+			<control type="radiobutton" id="22">
+				<description>enable home weather overlays</description>
+				<posx>145</posx>
+				<posy>194</posy>
+				<width>445</width>
+				<include>90001</include>
+				<onclick>Skin.ToggleSetting(homepageWeatherinfo)</onclick>
+				<selected>!Skin.HasSetting(homepageWeatherinfo)</selected>
+				<onleft>9001</onleft>
+				<onright>9001</onright>
+				<onup>21</onup>
+				<ondown>50</ondown>
 				<textoffsetx>7</textoffsetx>
 				<texturefocus>list-focus.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
 			</control>
 		</control>
 		
-		<control type="button" id="25">
+		<control type="button" id="50">
   		<description>Back</description>
   		<posx>35</posx>
   		<posy>465</posy>
@@ -95,10 +111,10 @@
   		<aligny>center</aligny>
   		<include>textcolorblack</include>
   		<onclick>ActivateWindow(1110)</onclick>
-  		<onleft>25</onleft>
-  		<onright>25</onright>
-  		<onup>21</onup>
-  		<ondown>25</ondown>
+  		<onleft>50</onleft>
+  		<onright>50</onright>
+  		<onup>22</onup>
+  		<ondown>50</ondown>
   		<texturefocus>button-big-focus.png</texturefocus>
   		<texturenofocus>button-big-nofocus.png</texturenofocus>
 			<include>homebuttonanimation</include>

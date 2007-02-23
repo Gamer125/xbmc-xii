@@ -52,7 +52,7 @@
 
 
 <!-- Begin skin settings includes -->
-	<include name="90001"><label>Show Date & Time</label></include>
+	<include name="90001"><label>Enable Home Weather Overlay</label></include>
 	<include name="90002"><label>Show Home Menu</label></include>
 	<include name="90003"><label>Set Home Title</label></include>
 	<include name="90004"><label>-</label></include>
