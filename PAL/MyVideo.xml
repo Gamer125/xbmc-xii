@@ -8,25 +8,18 @@
 			<posy>0</posy>
 			<width>720</width>
 			<height>576</height>
-			<texture>background-videos.png</texture>
-		</control>
-		<control type="label" id="1">
-			<description>xbox media center label</description>
-			<posx>200</posx>
-			<posy>63</posy>
-			<align>right</align>
-			<label>xbox media center</label>
-			<font>special12</font>
+			<texture>background-submenu.png</texture>
 		</control>
 		<control type="label" id="1">
 			<description>description label</description>
-			<posx>207</posx>
-			<posy>63</posy>
+			<posx>50</posx>
+			<posy>25</posy>
 			<align>left</align>
 			<label>3</label>
-			<font>special13</font>
+			<font>font32</font>
+			<include>textcolorblack</include>
 		</control>
-		<include>contentpanel</include>
+		
 		<control type="label" id="12">
 			<description>number of files text label</description>
 			<posx>545</posx>
@@ -47,6 +40,9 @@
 				<onright>50</onright>
 				<onup>33</onup>
 				<ondown>3</ondown>
+    		<texturefocus>button-white-focus.png</texturefocus>
+    		<texturenofocus>button-white-nofocus.png</texturenofocus>
+				<include>textcolorblack</include>
 			</control>
 			<control type="button" id="3">
 				<description>Sort by button</description>
@@ -57,6 +53,7 @@
 				<onright>4</onright>
 				<onup>2</onup>
 				<ondown>99</ondown>
+				<include>textcolorblack</include>
 			</control>
 			<control type="togglebutton" id="4">
 				<description>Sort asc</description>
@@ -79,6 +76,7 @@
 				<onright>50</onright>
 				<onup>3</onup>
 				<ondown>7</ondown>
+				<include>textcolorblack</include>
 			</control>
 			<control type="radiobutton" id="7">
 				<description>Stacking</description>
@@ -89,6 +87,7 @@
 				<onright>50</onright>
 				<onup>99</onup>
 				<ondown>31</ondown>
+				<include>textcolorblack</include>
 			</control>
 			<control type="group">
 				<visible>Skin.HasSetting(bookmarkbuttons)</visible>
@@ -167,6 +166,27 @@
 		<include>WideIcon_Small</include>
 		<include>WideIcon_Big</include>
 		<include>AllViewCommonPageControls</include>
+				
+		<control type="button" id="25">
+  		<description>Back</description>
+  		<posx>35</posx>
+  		<posy>490</posy>
+  		<width>200</width>
+  		<height>65</height>
+  		<include>backlabel</include>
+  		<font>font24</font>
+  		<align>center</align>
+  		<aligny>center</aligny>
+  		<include>textcolorblack</include>
+  		<onclick>ActivateWindow(Home)</onclick>
+  		<onleft>60</onleft>
+  		<onright>60</onright>
+  		<onup>52</onup>
+  		<ondown>9000</ondown>
+  		<texturefocus>button-white-focus.png</texturefocus>
+  		<texturenofocus>button-white-nofocus.png</texturenofocus>
+			<include>homebuttonanimation</include>
+		</control>
 		<control type="image" id="0">
 			<description>bg preview</description>
 			<posx>0</posx>

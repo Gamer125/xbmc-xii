@@ -42,6 +42,12 @@
 			<size>28</size>
 		</font>
 		<font>
+			<name>font32</name>
+			<filename>normal.ttf</filename>
+			<size>32</size>
+			<style>bold</style>
+		</font>
+		<font>
 			<name>special12</name>
 			<filename>normal.ttf</filename>
 			<size>16</size>

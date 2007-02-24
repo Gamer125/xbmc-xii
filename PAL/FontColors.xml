@@ -32,10 +32,10 @@
 		<colordiffuse>ffffffff</colordiffuse>
 	</include>
 	<include name="listselectedcolor">
-		<selectedcolor>FFe2ff43</selectedcolor>
+		<selectedcolor>ff000000</selectedcolor>
 	</include>
 	<include name="listselectedcolor2">
-		<selectedcolor>ffffffff</selectedcolor>
+		<selectedcolor>ff5cb1ed </selectedcolor>
 	</include>
 <! -- -- >
 </includes>
