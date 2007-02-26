@@ -11,7 +11,7 @@
 		<posy>60</posy>
 		<label>6</label>
 		<font>font13</font>
-		<include>textcolorwhite</include>
+		<include>textcolorblack</include>
 	</default>
 	<default type="button">
 		<posx>300</posx>
@@ -174,7 +174,6 @@
 		<width>18</width>
 		<height>16</height>
 		<font>font13</font>
-		<reverse>yes</reverse>
 		<include>textcolorwhite</include>
 		<disabledcolor>60ffffff</disabledcolor>
 		<subtype>text</subtype>
@@ -200,7 +199,7 @@
 		<disabledcolor>60d0d0d0</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
-		<reverse>yes</reverse>
+		<reverse>true</reverse>
 	</default>
 	<default type="checkmark">
 		<posx>208</posx>

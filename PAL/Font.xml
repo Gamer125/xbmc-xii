@@ -59,6 +59,18 @@
 			<style>bold</style>
 		</font>
 		<font>
+			<name>special20</name>
+			<filename>normal.ttf</filename>
+			<size>20</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>special24</name>
+			<filename>normal.ttf</filename>
+			<size>24</size>
+			<style>bold</style>
+		</font>
+		<font>
 			<name>xii14</name>
 			<filename>normal.ttf</filename>
 			<size>14</size>

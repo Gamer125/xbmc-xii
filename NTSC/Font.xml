@@ -50,6 +50,13 @@
      	<aspect>1.2</aspect>
 		</font>
 		<font>
+			<name>font32</name>
+			<filename>normal.ttf</filename>
+			<size>30</size>
+			<style>bold</style>
+     	<aspect>1.2</aspect>
+		</font>
+		<font>
 			<name>special12</name>
 			<filename>normal.ttf</filename>
 			<size>14</size>
@@ -59,6 +66,20 @@
 			<name>special13</name>
 			<filename>normal.ttf</filename>
 			<size>14</size>
+			<style>bold</style>
+     	<aspect>1.2</aspect>
+		</font>
+		<font>
+			<name>special20</name>
+			<filename>normal.ttf</filename>
+			<size>18</size>
+			<style>bold</style>
+     	<aspect>1.2</aspect>
+		</font>
+		<font>
+			<name>special24</name>
+			<filename>normal.ttf</filename>
+			<size>22</size>
 			<style>bold</style>
      	<aspect>1.2</aspect>
 		</font>

@@ -1,8 +1,21 @@
 <includes>
+<!-- Start global includes -->
+	<include name="500"><label>List</label></include>
+	<include name="501"><label>List 2</label></include>
+	<include name="502"><label>Icons</label></include>
+	<include name="503"><label>Icons 2</label></include>
+	<include name="503a"><label>Icons 3</label></include>
+	<include name="504"><label>Wide</label></include>
+	<include name="505"><label>Wide 2</label></include>
+	<include name="505"><label>Wrap</label></include>
+	<include name="505"><label>Wrap 2</label></include>
+
+<!-- End global includes -->
+
 <!-- Start home includes -->
 	<include name="homemenulabel"><label>Xii Menu</label></include>
 	<include name="system"><label>Xii Options</label></include>
-	<include name="button10"><label>Internet</label></include>
+	<include name="button10"><label>Reload Skin</label></include>
 	<include name="button11"><label>News</label></include>
 	<include name="button12"><label>Shop</label></include>
 	<include name="button13"><label>Power</label></include>

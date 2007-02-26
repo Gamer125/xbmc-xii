@@ -345,7 +345,7 @@
 				<height>159</height>
 				<label>-</label>
 				<font>xii16</font>
-				<onclick>ActivateWindow(INSERT_WINDOW)</onclick>
+				<onclick>XBMC.ReloadSkin()</onclick>
 				<onleft>13</onleft>
 				<onright>11</onright>
 				<onup>6</onup>
@@ -354,7 +354,7 @@
 				<texturenofocus>home-button-nofocus.png</texturenofocus>
 				<textoffsetx>30</textoffsetx>
 				<include>homebuttonanimation</include>
-				<visible>false</visible>
+				<visible>true</visible>
 			</control>
 			<control type="button" id="11">
 				<description>Extra Button 11 normal push button</description>

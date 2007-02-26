@@ -178,7 +178,7 @@
 			<disabledcolor>60d0d0d0</disabledcolor>
 			<textoffsetx>7</textoffsetx>
 			<aligny>center</aligny>
-			<reverse>yes</reverse>
+			<reverse>false</reverse>
 		</control>
 		<control type="image" id="11">
 			<description>separator image</description>
