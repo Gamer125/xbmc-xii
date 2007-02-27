@@ -13,15 +13,15 @@
 		<control type="image" id="1">
 			<description>background middle overlay</description>
 			<posx>0</posx>
-			<posy>83</posy>
+			<posy>85</posy>
 			<width>720</width>
-			<height>369</height>
+			<height>367</height>
 			<texture>background-greylines.png</texture>
 		</control>
 		<control type="image" id="1">
 			<description>white tab image 1</description>
 			<posx>25</posx>
-			<posy>45</posy>
+			<posy>48</posy>
 			<width>400</width>
 			<height>33</height>
 			<texture>background-tab-grey.png</texture>
@@ -29,7 +29,7 @@
 		<control type="image" id="1">
 			<description>white tab image 2</description>
 			<posx>65</posx>
-			<posy>37</posy>
+			<posy>40</posy>
 			<width>400</width>
 			<height>41</height>
 			<texture>background-tab-white.png</texture>
@@ -37,7 +37,7 @@
 		<control type="image" id="1">
 			<description>data tab image</description>
 			<posx>38</posx>
-			<posy>53</posy>
+			<posy>56</posy>
 			<width>20</width>
 			<height>20</height>
 			<texture>icon-data2.png</texture>
@@ -45,7 +45,7 @@
 		<control type="image" id="1">
 			<description>file tab image</description>
 			<posx>78</posx>
-			<posy>44</posy>
+			<posy>47</posy>
 			<width>30</width>
 			<height>30</height>
 			<texture>icon-data2.png</texture>
@@ -53,7 +53,7 @@
 		<control type="label" id="1">
 			<description>white tab label 1</description>
 			<posx>125</posx>
-			<posy>40</posy>
+			<posy>43</posy>
 			<font>font28</font>
 			<height>41</height>
 			<include>textcolorblack</include>

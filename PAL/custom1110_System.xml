@@ -13,7 +13,7 @@
 		<control type="image" id="1">
 			<description>xii logo image</description>
 			<posx>609</posx>
-			<posy>37</posy>
+			<posy>40</posy>
 			<width>66</width>
 			<height>36</height>
 			<texture>logo-xii-grey.png</texture>

@@ -79,10 +79,12 @@
 				<animation effect="slide" time="500" start="-600,0" acceleration="-1.1" delay="0" condition="!Skin.HasSetting(animated)">WindowOpen</animation>
 				<control type="image" id="14">
 					<description>Settings background</description>
-					<posx>-117</posx>
-					<posy>493</posy>
+					<!-- gas <posx>-117</posx>
+					<posy>493</posy> -->
+					<posx>-118</posx>
+					<posy>460</posy>
 					<width>234</width>
-					<height>62</height>
+					<height>127</height>
 					<texture>home-button-plate.png</texture>
 				</control>
 				<control type="button" id="14">
@@ -127,9 +129,9 @@
     		<control type="image" id="14">
 					<description>Xlink background</description>
 					<posx>603</posx>
-					<posy>493</posy>
+					<posy>460</posy>
 					<width>234</width>
-					<height>62</height>
+					<height>127</height>
 					<texture flipx="true">home-button-plate.png</texture>
 				</control>
 				<control type="button" id="15">
@@ -173,52 +175,35 @@
 <!-- main buttons -->	
 		<control type="group" id="9004">
 			<control type="button" id="2">
-				<description>Disc normal push button with media</description>
+				<description>My Programs normal push button</description>
 				<posx>-5</posx>
 				<posy>10</posy>
 				<width>202</width>
 				<height>159</height>
 				<label>-</label>
-				<onclick>XBMC.PlayDVD</onclick>
 				<font>xii16</font>
+				<onclick>ActivateWindow(MyPrograms)</onclick>
 				<onleft>5</onleft>
 				<onright>3</onright>
 				<onup>2</onup>
 				<ondown>6</ondown>
-				<texturefocus>home-button-focus.png</texturefocus>
-				<texturenofocus>home-button-nofocus.png</texturenofocus>
-				<textoffsetx>30</textoffsetx>
+				<texturefocus>home-disc-focus.png</texturefocus>
+				<texturenofocus>home-disc-nofocus.png</texturenofocus>
+				<textoffsety>140</textoffsety>
+				<include>textcolorblack</include>
+				<include>textdisabled</include>
+				<align>center</align>
 				<include>homebuttonanimation</include>
-				<visible>System.HasMediaDVD</visible>
-			</control>
-			<control type="button" id="2">
-				<description>Disc normal push button no media</description>
-				<posx>-5</posx>
-				<posy>10</posy>
-				<width>202</width>
-				<height>159</height>
-				<label>-</label>
-				<onclick>XBMC.EjectTray()</onclick>
-				<font>xii16</font>
-				<onleft>5</onleft>
-				<onright>3</onright>
-				<onup>2</onup>
-				<ondown>6</ondown>
-				<texturefocus>home-button-focus.png</texturefocus>
-				<texturenofocus>home-button-nofocus.png</texturenofocus>
-				<textoffsetx>30</textoffsetx>
-				<include>homebuttonanimation</include>
-				<visible>!System.HasMediaDVD</visible>
 			</control>
 			<control type="button" id="3">
-				<description>Profiles normal push button</description>
+				<description>My Videos normal push button</description>
 				<posx>170</posx>
 				<posy>10</posy>
 				<width>202</width>
 				<height>159</height>
 				<label>-</label>
 				<font>xii16</font>
-				<onclick>ActivateWindow(34)</onclick>
+				<onclick>ActivateWindow(MyVideos)</onclick>
 				<onleft>2</onleft>
 				<onright>4</onright>
 				<onup>3</onup>
@@ -229,13 +214,13 @@
 				<include>homebuttonanimation</include>
 			</control>
 			<control type="button" id="4">
-				<description>My Weather normal push button</description>
+				<description>My Music normal push button</description>
 				<posx>345</posx>
 				<posy>10</posy>
 				<width>202</width>
 				<height>159</height>
 				<label>-</label>
-				<onclick>ActivateWindow(Weather)</onclick>
+				<onclick>ActivateWindow(MyMusic)</onclick>
 				<font>xii16</font>
 				<onleft>3</onleft>
 				<onright>5</onright>
@@ -246,13 +231,13 @@
 				<include>homebuttonanimation</include>
 			</control>
 			<control type="button" id="5">
-				<description>My Scripts normal push button</description>
+				<description>My Pictures normal push button</description>
 				<posx>520</posx>
 				<posy>10</posy>
 				<width>202</width>
 				<height>159</height>
 				<label>-</label>
-				<onclick>ActivateWindow(20)</onclick>
+				<onclick>ActivateWindow(MyPictures)</onclick>
 				<font>xii16</font>
 				<onleft>4</onleft>
 				<onright>2</onright>
@@ -264,14 +249,14 @@
 				<include>homebuttonanimation</include>
 			</control>
 			<control type="button" id="6">
-				<description>My Programs normal push button</description>
+				<description>My Weather normal push button</description>
 				<posx>-5</posx>
 				<posy>155</posy>
 				<width>202</width>
 				<height>159</height>
 				<label>-</label>
 				<font>xii16</font>
-				<onclick>ActivateWindow(MyPrograms)</onclick>
+				<onclick>ActivateWindow(Weather)</onclick>
 				<onleft>9</onleft>
 				<onright>7</onright>
 				<onup>2</onup>
@@ -282,14 +267,14 @@
 				<include>homebuttonanimation</include>
 			</control>
 			<control type="button" id="7">
-				<description>My Videos normal push button</description>
+				<description>My Scripts normal push button</description>
 				<posx>170</posx>
 				<posy>155</posy>
 				<width>202</width>
 				<height>159</height>
 				<label>-</label>
 				<font>xii16</font>
-				<onclick>ActivateWindow(MyVideos)</onclick>
+				<onclick>ActivateWindow(20)</onclick>
 				<onleft>6</onleft>
 				<onright>8</onright>
 				<onup>3</onup>
@@ -300,13 +285,13 @@
 				<include>homebuttonanimation</include>
 			</control>
 			<control type="button" id="8">
-				<description>My Music normal push button</description>
+				<description>Profiles normal push button</description>
 				<posx>345</posx>
 				<posy>155</posy>
 				<width>202</width>
 				<height>159</height>
 				<label>-</label>
-				<onclick>ActivateWindow(MyMusic)</onclick>
+				<onclick>ActivateWindow(34)</onclick>
 				<font>xii16</font>
 				<onleft>7</onleft>
 				<onright>9</onright>
@@ -317,25 +302,42 @@
 				<include>homebuttonanimation</include>
 			</control>
 			<control type="button" id="9">
-				<description>My Pictures normal push button</description>
+				<description>Disc normal push button with media</description>
 				<posx>520</posx>
 				<posy>155</posy>
 				<width>202</width>
 				<height>159</height>
 				<label>-</label>
+				<onclick>XBMC.PlayDVD</onclick>
 				<font>xii16</font>
-				<onclick>ActivateWindow(MyPictures)</onclick>
 				<onleft>8</onleft>
 				<onright>6</onright>
 				<onup>5</onup>
 				<ondown>13</ondown>
 				<texturefocus>home-button-focus.png</texturefocus>
 				<texturenofocus>home-button-nofocus.png</texturenofocus>
-				<textoffsety>140</textoffsety>
-				<include>textcolorblack</include>
-				<include>textdisabled</include>
-				<align>center</align>
+				<textoffsetx>30</textoffsetx>
 				<include>homebuttonanimation</include>
+				<visible>System.HasMediaDVD</visible>
+			</control>
+			<control type="button" id="9">
+				<description>Disc normal push button no media</description>
+				<posx>520</posx>
+				<posy>155</posy>
+				<width>202</width>
+				<height>159</height>
+				<label>-</label>
+				<onclick>XBMC.EjectTray()</onclick>
+				<font>xii16</font>
+				<onleft>8</onleft>
+				<onright>6</onright>
+				<onup>5</onup>
+				<ondown>13</ondown>
+				<texturefocus>home-button-focus.png</texturefocus>
+				<texturenofocus>home-button-nofocus.png</texturenofocus>
+				<textoffsetx>30</textoffsetx>
+				<include>homebuttonanimation</include>
+				<visible>!System.HasMediaDVD</visible>
 			</control>
 			<control type="button" id="10">
 				<description>Extra Button 10 normal push button</description>
@@ -345,7 +347,7 @@
 				<height>159</height>
 				<label>-</label>
 				<font>xii16</font>
-				<onclick>XBMC.ReloadSkin()</onclick>
+				<onclick>xbmc.ReloadSkin()</onclick>
 				<onleft>13</onleft>
 				<onright>11</onright>
 				<onup>6</onup>
@@ -354,7 +356,7 @@
 				<texturenofocus>home-button-nofocus.png</texturenofocus>
 				<textoffsetx>30</textoffsetx>
 				<include>homebuttonanimation</include>
-				<visible>true</visible>
+				<visible>visible</visible>
 			</control>
 			<control type="button" id="11">
 				<description>Extra Button 11 normal push button</description>
@@ -416,7 +418,7 @@
 
 		<!-- main buttons overlay -->
 	<control type="image" id="202">
-		<description>Disc button image</description>
+		<description>My Programs button image</description>
 		<posx>-5</posx>
 		<posy>10</posy>
 		<width>202</width>
@@ -427,39 +429,22 @@
 		<visible>Control.HasFocus(2)</visible>
 	</control>
 	<control type="label" id="202">
-    <description>Disc button label with Media</description>
-    <posx>20</posx>
-    <posy>155</posy>
-    <width>150</width>
-    <align>center</align>
-    <scroll>false</scroll>
-    <label>341</label>
-    <haspath>false</haspath>
-    <font>xii16</font>
-    <include>textcolorblack</include>
-    <visible>Control.HasFocus(2)</visible>
-		<visible>System.HasMediaDVD</visible>
+      <description>My Programs button label</description>
+      <posx>20</posx>
+      <posy>155</posy>
+      <width>150</width>
+      <align>center</align>
+      <scroll>false</scroll>
+      <label>0</label>
+      <haspath>false</haspath>
+      <font>xii16</font>
+      <include>textcolorblack</include>
+      <visible>Control.HasFocus(2)</visible>
 		<include>homebuttonanimation</include>
 		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
-	</control>
-	<control type="label" id="202">
-    <description>Disc button label without Media</description>
-    <posx>20</posx>
-    <posy>155</posy>
-    <width>150</width>
-    <align>center</align>
-    <scroll>false</scroll>
-    <label>13391</label>
-    <haspath>false</haspath>
-    <font>xii16</font>
-    <include>textcolorblack</include>
-    <visible>Control.HasFocus(2)</visible>
-		<visible>!System.HasMediaDVD</visible>
-		<include>homebuttonanimation</include>
-		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
-	</control>
+		</control>
 	<control type="image" id="203">
-		<description>Profile button image</description>
+		<description>My Videos button image</description>
 		<posx>170</posx>
 		<posy>10</posy>
 		<width>202</width>
@@ -470,22 +455,22 @@
 		<visible>Control.HasFocus(3)</visible>
 	</control>
 	<control type="label" id="203">
-    <description>Profiles button label with media</description>
-    <posx>195</posx>
-    <posy>155</posy>
-    <width>150</width>
-    <align>center</align>
-    <scroll>false</scroll>
-    <label>13200</label>
-    <haspath>false</haspath>
-    <font>xii16</font>
-    <include>textcolorblack</include>
-    <visible>Control.HasFocus(3)</visible>
+      <description>My Videos button label</description>
+      <posx>195</posx>
+      <posy>155</posy>
+      <width>150</width>
+      <align>center</align>
+      <scroll>false</scroll>
+      <label>3</label>
+      <haspath>false</haspath>
+      <font>xii16</font>
+      <include>textcolorblack</include>
+      <visible>Control.HasFocus(3)</visible>
 		<include>homebuttonanimation</include>
 		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
-	</control>
+		</control>
 	<control type="image" id="204">
-		<description>My Weather button image</description>
+		<description>My Music button image</description>
 		<posx>345</posx>
 		<posy>10</posy>
 		<width>202</width>
@@ -496,13 +481,13 @@
 		<visible>Control.HasFocus(4)</visible>
 	</control>
 	<control type="label" id="204">
-      <description>My Weather button label</description>
+      <description>My Music button label</description>
       <posx>370</posx>
       <posy>155</posy>
       <width>150</width>
       <align>center</align>
       <scroll>false</scroll>
-      <label>8</label>
+      <label>2</label>
       <haspath>false</haspath>
       <font>xii16</font>
       <include>textcolorblack</include>
@@ -511,7 +496,7 @@
 		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
 		</control>
 	<control type="image" id="205">
-		<description>My Scripts button image</description>
+		<description>My Pictures button image</description>
 		<posx>520</posx>
 		<posy>10</posy>
 		<width>202</width>
@@ -522,13 +507,13 @@
 		<visible>Control.HasFocus(5)</visible>
 	</control>
 	<control type="label" id="205">
-      <description>My Scripts button label</description>
+      <description>My Pictures button label</description>
       <posx>545</posx>
       <posy>155</posy>
       <width>150</width>
       <align>center</align>
       <scroll>false</scroll>
-      <label>247</label>
+      <label>1</label>
       <haspath>false</haspath>
       <font>xii16</font>
       <include>textcolorblack</include>
@@ -537,7 +522,7 @@
 		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
 		</control>
 	<control type="image" id="206">
-		<description>My Programs button image</description>
+		<description>My Weather button image</description>
 		<posx>-5</posx>
 		<posy>155</posy>
 		<width>202</width>
@@ -548,13 +533,13 @@
 		<visible>Control.HasFocus(6)</visible>
 	</control>
 	<control type="label" id="206">
-      <description>My Programs button label</description>
+      <description>My Weather button label</description>
       <posx>20</posx>
       <posy>300</posy>
       <width>150</width>
       <align>center</align>
       <scroll>false</scroll>
-      <label>0</label>
+      <label>8</label>
       <haspath>false</haspath>
       <font>xii16</font>
       <include>textcolorblack</include>
@@ -563,7 +548,7 @@
 		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
 		</control>
 	<control type="image" id="207">
-		<description>My Videos button image</description>
+		<description>My Scripts button image</description>
 		<posx>170</posx>
 		<posy>155</posy>
 		<width>202</width>
@@ -574,13 +559,13 @@
 		<visible>Control.HasFocus(7)</visible>
 	</control>
 	<control type="label" id="207">
-      <description>My Videos button label</description>
+      <description>My Scripts button label</description>
       <posx>195</posx>
       <posy>300</posy>
       <width>150</width>
       <align>center</align>
       <scroll>false</scroll>
-      <label>3</label>
+      <label>247</label>
       <haspath>false</haspath>
       <font>xii16</font>
       <include>textcolorblack</include>
@@ -589,7 +574,7 @@
 		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
 		</control>
 	<control type="image" id="208">
-		<description>My Music button image</description>
+		<description>Profiles button image</description>
 		<posx>345</posx>
 		<posy>155</posy>
 		<width>202</width>
@@ -600,13 +585,13 @@
 		<visible>Control.HasFocus(8)</visible>
 	</control>
 	<control type="label" id="208">
-      <description>My Music button label</description>
+      <description>Profiles button label</description>
       <posx>370</posx>
       <posy>300</posy>
       <width>150</width>
       <align>center</align>
       <scroll>false</scroll>
-      <label>2</label>
+      <label>13200</label>
       <haspath>false</haspath>
       <font>xii16</font>
       <include>textcolorblack</include>
@@ -615,7 +600,7 @@
 		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
 		</control>
 	<control type="image" id="209">
-		<description>My Pictures button image</description>
+		<description>Disc button image</description>
 		<posx>520</posx>
 		<posy>155</posy>
 		<width>202</width>
@@ -626,20 +611,37 @@
 		<visible>Control.HasFocus(9)</visible>
 	</control>
 	<control type="label" id="209">
-    <description>My Pictures button label</description>
-    <posx>545</posx>
-    <posy>300</posy>
-    <width>150</width>
-    <align>center</align>
-    <scroll>false</scroll>
-    <label>1</label>
-    <haspath>false</haspath>
-    <font>xii16</font>
-    <include>textcolorblack</include>
-    <visible>Control.HasFocus(9)</visible>
+      <description>Disc button label with media</description>
+      <posx>545</posx>
+      <posy>300</posy>
+      <width>150</width>
+      <align>center</align>
+      <scroll>false</scroll>
+      <label>341</label>
+      <haspath>false</haspath>
+      <font>xii16</font>
+      <include>textcolorblack</include>
+      <visible>Control.HasFocus(9)</visible>
+		<visible>System.HasMediaDVD</visible>
 		<include>homebuttonanimation</include>
 		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
-	</control>
+		</control>
+	<control type="label" id="209">
+      <description>Disc button label no media</description>
+      <posx>545</posx>
+      <posy>300</posy>
+      <width>150</width>
+      <align>center</align>
+      <scroll>false</scroll>
+      <label>13391</label>
+      <haspath>false</haspath>
+      <font>xii16</font>
+      <include>textcolorblack</include>
+      <visible>Control.HasFocus(9)</visible>
+		<visible>!System.HasMediaDVD</visible>
+		<include>homebuttonanimation</include>
+		<animation effect="fade" time="250" start="0" end="100" delay="100">VisibleChange</animation>
+		</control>
 	<control type="image" id="210">
 		<description>Extra Button 10 image</description>
 		<posx>-5</posx>
@@ -804,7 +806,7 @@
 			<font>xii14</font>
 			<include>homevideoinfo</include>
 		</control>
-<!-- media infos (music) -->
+		<!-- media infos (music) -->
 		<control type="image" id="1">
 			<description>music gradient</description>
 			<posx>315</posx>
@@ -863,23 +865,31 @@
 			<include>homemediainfo</include>
 		</control>
 		
-<!-- weather Info -->
+		<!-- weather Info -->
 		<control type="group">
-			<visible>Control.HasFocus(4) + Weather.IsFetched + !Skin.HasSetting(homepageWeatherinfo)</visible>
+			<visible>Control.HasFocus(6) + Weather.IsFetched + !Skin.HasSetting(homepageWeatherinfo)</visible>
 			<include>homebuttonanimation</include>
 			<control type="image">
 				<description>Weather image</description>
-				<posx>410</posx>
-				<posy>45</posy>
+				<posx>60</posx>
+				<posy>190</posy>
 				<width>64</width>
 				<height>73</height>
 				<info>Weather.Conditions</info>
 			</control>
+			<control type="image">
+				<description>Weather image overlay</description>
+				<posx>555</posx>
+				<posy>338</posy>
+				<width>90</width>
+				<height>99</height>
+				<texture>home-button-overlay.png</texture>
+			</control>
 			<control type="label">
 				<description>location label</description>
 				<width>150</width>
-				<posx>370</posx>
-				<posy>40</posy>
+				<posx>20</posx>
+				<posy>185</posy>
 				<info>Weather.Location</info>
 				<align>center</align>
 				<font>xii14</font>
@@ -888,8 +898,8 @@
 			<control type="label">
 				<description>conditions Label</description>
 				<width>150</width>
-				<posx>370</posx>
-				<posy>105</posy>
+				<posx>20</posx>
+				<posy>250</posy>
 				<label>$INFO[Weather.Conditions]</label>
 				<align>center</align>
 				<font>xii14</font>
@@ -898,8 +908,8 @@
 			<control type="label">
 				<description>temp Label</description>
 				<width>150</width>
-				<posx>370</posx>
-				<posy>120</posy>
+				<posx>20</posx>
+				<posy>265</posy>
 				<label>$LOCALIZE[143] $INFO[Weather.Temperature]</label>
 				<align>center</align>
 				<font>xii14</font>

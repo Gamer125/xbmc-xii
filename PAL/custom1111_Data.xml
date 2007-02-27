@@ -13,7 +13,7 @@
 		<control type="image" id="1">
 			<description>xii logo image</description>
 			<posx>609</posx>
-			<posy>37</posy>
+			<posy>40</posy>
 			<width>66</width>
 			<height>36</height>
 			<texture>logo-xii-grey.png</texture>
@@ -21,7 +21,7 @@
 		<control type="image" id="1">
 			<description>white tab image</description>
 			<posx>25</posx>
-			<posy>37</posy>
+			<posy>40</posy>
 			<width>400</width>
 			<height>41</height>
 			<texture>background-tab-white.png</texture>
@@ -29,7 +29,7 @@
 		<control type="image" id="1">
 			<description>data tab image</description>
 			<posx>42</posx>
-			<posy>47</posy>
+			<posy>50</posy>
 			<width>25</width>
 			<height>25</height>
 			<texture>icon-data.png</texture>
@@ -37,7 +37,7 @@
 		<control type="label" id="1">
 			<description>white tab label </description>
 			<posx>85</posx>
-			<posy>40</posy>
+			<posy>43</posy>
 			<font>font28</font>
 			<height>41</height>
 			<include>textcolorblack</include>

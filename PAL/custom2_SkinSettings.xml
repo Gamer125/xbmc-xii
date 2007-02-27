@@ -13,15 +13,15 @@
 		<control type="image" id="1">
 			<description>background middle overlay</description>
 			<posx>0</posx>
-			<posy>84</posy>
+			<posy>85</posy>
 			<width>720</width>
-			<height>368</height>
-			<texture>background-black.png</texture>
+			<height>367</height>
+			<texture>background-black2.png</texture>
 		</control>
 		<control type="image" id="1">
 			<description>white tab image 1</description>
 			<posx>25</posx>
-			<posy>45</posy>
+			<posy>48</posy>
 			<width>400</width>
 			<height>33</height>
 			<texture>background-tab-grey.png</texture>
@@ -29,7 +29,7 @@
 		<control type="image" id="1">
 			<description>white tab image 2</description>
 			<posx>65</posx>
-			<posy>37</posy>
+			<posy>40</posy>
 			<width>400</width>
 			<height>41</height>
 			<texture>background-tab-white.png</texture>
@@ -38,7 +38,7 @@
 		<control id="2" type="label">
   		<description>white tab label 1</description>
     	<posx>75</posx> 
-    	<posy>40</posy>
+    	<posy>43</posy>
 			<height>41</height>
     	<align>left</align> 
 			<font>font28</font>
@@ -52,7 +52,7 @@
 			<control type="radiobutton" id="20">
 				<description>enable animations</description>
 				<posx>145</posx>
-				<posy>120</posy>
+				<posy>90</posy>
 				<width>445</width>
 				<label>20079</label>
 				<onclick>Skin.ToggleSetting(animated)</onclick>
@@ -68,7 +68,7 @@
 			<control type="radiobutton" id="21">
 				<description>enable animations</description>
 				<posx>145</posx>
-				<posy>157</posy>
+				<posy>127</posy>
 				<width>445</width>
 				<label>Enable Scrollbars</label>
 				<onclick>Skin.ToggleSetting(UseScrollbars)</onclick>
@@ -84,7 +84,7 @@
 			<control type="radiobutton" id="22">
 				<description>enable home weather overlays</description>
 				<posx>145</posx>
-				<posy>194</posy>
+				<posy>167</posy>
 				<width>445</width>
 				<include>90001</include>
 				<onclick>Skin.ToggleSetting(homepageWeatherinfo)</onclick>

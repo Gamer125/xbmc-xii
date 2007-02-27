@@ -414,9 +414,9 @@
 				</control>
 				<control type="image">
 					<posx>12</posx>
-					<posy>10</posy>
-					<width>66</width>
-					<height>65</height>
+					<posy>9</posy>
+					<width>60</width>
+					<height>61</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
@@ -719,9 +719,9 @@
 	</include>
 	<include name="AllViewCommonThumbSmall">
 		<control type="panel" id="52">
-			<posx>120</posx>
+			<posx>105</posx>
 			<posy>95</posy>
-			<width>475</width>
+			<width>485</width>
 			<height>375</height>
 			<onleft>9000</onleft>
 			<onright>60</onright>
@@ -731,57 +731,64 @@
 			<viewtype label="536">icon</viewtype>
 			<pagecontrol>60</pagecontrol>
 			<include>contentpanelslide</include>
-			<itemlayout height="125" width="110">
+			<itemlayout height="120" width="120">
 				<control type="image">
-					<posx>10</posx>
-					<posy>5</posy>
+					<width>120</width>
+					<height>120</height>
+					<posx>0</posx>
+					<posy>0</posy>
+					<texture>button-tile-nofocus.png</texture>
+				</control>
+				<control type="image">
+					<posx>15</posx>
+					<posy>7</posy>
 					<width>90</width>
 					<height>90</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
-					<posx>73</posx>
-					<posy>65</posy>
+					<posx>77</posx>
+					<posy>67</posy>
 					<width>32</width>
 					<height>32</height>
 					<info>ListItem.Overlay</info>
 				</control>
 				<control type="label">
-					<posx>55</posx>
-					<posy>100</posy>
-					<width>100</width>
+					<posx>60</posx>
+					<posy>93</posy>
+					<width>96</width>
 					<height>22</height>
 					<font>special12</font>
 					<align>center</align>
 					<info>ListItem.Label</info>
 				</control>
 			</itemlayout>
-			<focusedlayout  height="125" width="110">
+			<focusedlayout  height="120" width="120">
 				<control type="image">
-					<width>100</width>
-					<height>100</height>
-					<posx>5</posx>
+					<width>120</width>
+					<height>120</height>
+					<posx>0</posx>
 					<posy>0</posy>
 					<texture>button-tile-focus.png</texture>
 				</control>
 				<control type="image">
-					<posx>10</posx>
-					<posy>5</posy>
+					<posx>15</posx>
+					<posy>7</posy>
 					<width>90</width>
 					<height>90</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
-					<posx>73</posx>
-					<posy>65</posy>
+					<posx>77</posx>
+					<posy>67</posy>
 					<width>32</width>
 					<height>32</height>
 					<info>ListItem.Overlay</info>
 				</control>
 				<control type="label">
-					<posx>55</posx>
-					<posy>100</posy>
-					<width>100</width>
+					<posx>60</posx>
+					<posy>93</posy>
+					<width>96</width>
 					<height>22</height>
 					<font>special12</font>
 					<align>center</align>
@@ -836,7 +843,7 @@
 					<height>140</height>
 					<posx>5</posx>
 					<posy>0</posy>
-					<texture>folder-focus.png</texture>
+					<texture>button-tile-focus.png</texture>
 				</control>
 				<control type="image">
 					<posx>10</posx>
@@ -867,9 +874,9 @@
 	</include>
 	<include name="AllViewCommonThumbOnly">
 		<control type="panel" id="54">
-			<posx>82</posx>
+			<posx>60</posx>
 			<posy>75</posy>
-			<width>550</width>
+			<width>520</width>
 			<height>365</height>
 			<onleft>9000</onleft>
 			<onright>60</onright>
@@ -880,12 +887,12 @@
 			<viewtype label="$LOCALIZE[536] 3">icon</viewtype>
 			<pagecontrol>60</pagecontrol>
 			<include>contentpanelslide</include>
-			<itemlayout height="103" width="95">
+			<itemlayout height="125" width="78">
 				<control type="image">
 					<posx>21</posx>
 					<posy>25</posy>
-					<width>103</width>
-					<height>103</height>
+					<width>125</width>
+					<height>125</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
@@ -896,12 +903,12 @@
 					<info>ListItem.Overlay</info>
 				</control>
 			</itemlayout>
-			<focusedlayout  height="150" width="150">
+			<focusedlayout  height="175" width="175">
 				<control type="image">
 					<posx>0</posx>
 					<posy>0</posy>
-					<width>150</width>
-					<height>150</height>
+					<width>175</width>
+					<height>175</height>
 					<info>ListItem.Icon</info>
 				</control>
 			</focusedlayout>

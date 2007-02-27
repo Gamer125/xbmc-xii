@@ -13,15 +13,15 @@
 		<control type="image" id="1">
 			<description>background middle overlay</description>
 			<posx>0</posx>
-			<posy>84</posy>
+			<posy>85</posy>
 			<width>720</width>
-			<height>368</height>
-			<texture>background-black.png</texture>
+			<height>367</height>
+			<texture>background-black2.png</texture>
 		</control>
 		<control type="image" id="1">
 			<description>white tab image 1</description>
 			<posx>25</posx>
-			<posy>45</posy>
+			<posy>48</posy>
 			<width>400</width>
 			<height>33</height>
 			<texture>background-tab-grey.png</texture>
@@ -29,7 +29,7 @@
 		<control type="image" id="1">
 			<description>white tab image 2</description>
 			<posx>65</posx>
-			<posy>37</posy>
+			<posy>40</posy>
 			<width>400</width>
 			<height>41</height>
 			<texture>background-tab-white.png</texture>
@@ -38,7 +38,7 @@
 		<control id="2" type="label">
   		<description>white tab label 1</description>
     	<posx>75</posx> 
-    	<posy>40</posy>
+    	<posy>43</posy>
 			<height>41</height>
     	<align>left</align> 
 			<font>font28</font>
@@ -48,7 +48,7 @@
     <control type="image">
       <description>Left Fading button</description>
       <posx>125</posx>
-      <posy>95</posy>
+      <posy>92</posy>
       <width>150</width>
       <height>33</height>
       <texture diffuse="fade2.png">button-long-nofocus.png</texture>
@@ -57,7 +57,7 @@
     <control type="image">
       <description>Left Arrow</description>
       <posx>177</posx>
-      <posy>100</posy>
+      <posy>97</posy>
       <width>25</width>
       <height>25</height>
       <texture>scroll-left.png</texture>
@@ -66,7 +66,7 @@
     <control type="image">
       <description>Middle button Focus</description>
       <posx>285</posx>
-      <posy>95</posy>
+      <posy>92</posy>
       <width>150</width>
       <height>33</height>
       <texture>button-long-focus.png</texture>
@@ -76,7 +76,7 @@
     <control type="image">
       <description>Middle button</description>
       <posx>285</posx>
-      <posy>95</posy>
+      <posy>92</posy>
       <width>150</width>
       <height>33</height>
       <texture>button-long-nofocus.png</texture>
@@ -86,7 +86,7 @@
     <control type="image">
       <description>Right Fading button</description>
       <posx>445</posx>
-      <posy>95</posy>
+      <posy>92</posy>
       <width>150</width>
       <height>33</height>
       <texture diffuse="fade1.png">button-long-nofocus.png</texture>
@@ -95,7 +95,7 @@
     <control type="image">
       <description>Right Arrow</description>
       <posx>518</posx>
-      <posy>100</posy>
+      <posy>97</posy>
       <width>25</width>
       <height>25</height>
       <texture>scroll-right.png</texture>
@@ -104,7 +104,7 @@
 		<control type="grouplist" id="3">
 			<description>button area</description>
 			<posx>285</posx>
-			<posy>95</posy>
+			<posy>90</posy>
 			<width>150</width>
 			<height>300</height>
 			<orientation>horizontal</orientation>
@@ -118,7 +118,7 @@
 		<control type="button" id="10">
 			<description>Default Category Button</description>
 			<posx>208</posx>
-			<posy>150</posy>
+			<posy>145</posy>
 			<label>224</label>
 			<font>special12</font>
 			<aligny>center</aligny>
@@ -130,9 +130,9 @@
 		<control type="grouplist" id="5">
 			<description>control area</description>
 			<posx>145</posx>
-			<posy>135</posy>
+			<posy>130</posy>
 			<width>445</width>
-			<height>310</height>
+			<height>320</height>
 			<itemgap>0</itemgap>
 			<pagecontrol>90</pagecontrol>
 			<include>contentpanelslide</include>
@@ -145,7 +145,7 @@
 		<control type="button" id="7">
 			<description>Default Button</description>
 			<posx>530</posx>
-			<posy>150</posy>
+			<posy>145</posy>
 			<font>special12</font>
 			<textoffsetx>7</textoffsetx>
 			<texturefocus>list-focus.png</texturefocus>
@@ -154,7 +154,7 @@
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
 			<posx>530</posx>
-			<posy>150</posy>
+			<posy>145</posy>
 			<font>special12</font>
 			<texturefocus>list-focus.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
@@ -165,7 +165,7 @@
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
 			<posx>530</posx>
-			<posy>150</posy>
+			<posy>145</posy>
 			<width>300</width>
 			<texturefocus>list-focus.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
@@ -188,16 +188,18 @@
 		</control>
 		<control type="spincontrol" id="90">
 			<description>Next page button</description>
-			<posx>610</posx>
-			<posy>526</posy>
+			<posx>590</posx>
+			<posy>500</posy>
 			<subtype>page</subtype>
-			<font>special12</font>
+			<font>font20</font>
 			<onleft>5</onleft>
 			<onright>3</onright>
 			<ondown>60</ondown>
 			<onup>5</onup>
 			<include>contentpanelslide</include>
-			<showonepage>false</showonepage>
+			<showonepage>true</showonepage>
+			<textureup>-</textureup>
+			<texturedown>-</texturedown>
 		</control>
 		
 		<control type="button" id="25">
