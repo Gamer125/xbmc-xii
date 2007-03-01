@@ -110,6 +110,13 @@
      	<aspect>1.2</aspect>
 		</font>
 		<font>
+			<name>xii48</name>
+			<filename>xii.ttf</filename>
+			<size>46</size>
+			<style>bold</style>
+     	<aspect>1.2</aspect>
+		</font>
+		<font>
 			<name>bold20</name>
 			<filename>xii-medium.ttf</filename>
 			<size>18</size>

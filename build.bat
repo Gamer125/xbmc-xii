@@ -10,7 +10,7 @@ CALL media\XBMCTex.bat
 
 ECHO ------------------------------
 ECHO Copying XPR Files...
-xcopy "media\*.xpr" "BUILD\Xii\media\" /Q /I /Y
+xcopy "media\*.xpr" "BUILD\Xii-build\media\" /Q /I /Y
 
 ECHO ------------------------------
 ECHO Cleaning Up...
@@ -18,17 +18,17 @@ del "media\*.xpr"
 
 ECHO ------------------------------
 ECHO Building Skin Directory...
-xcopy "1080i" "BUILD\Xii\1080i" /E /Q /I /Y
-xcopy "720p" "BUILD\Xii\720p" /E /Q /I /Y
-xcopy "extras" "BUILD\Xii\extras" /E /Q /I /Y
-xcopy "NTSC" "BUILD\Xii\NTSC" /E /Q /I /Y
-xcopy "NTSC16x9" "BUILD\Xii\NTSC16x9" /E /Q /I /Y
-xcopy "PAL" "BUILD\Xii\PAL" /E /Q /I /Y
-xcopy "PAL16x9" "BUILD\Xii\PAL16x9" /E /Q /I /Y
-xcopy "fonts" "BUILD\Xii\fonts" /E /Q /I /Y
-xcopy "sounds" "BUILD\Xii\sounds" /E /Q /I /Y
-xcopy "*.xml" "BUILD\Xii\" /Q /I /Y
-xcopy "*.txt" "BUILD\Xii\" /Q /I /Y
+xcopy "1080i" "BUILD\Xii-build\1080i" /E /Q /I /Y
+xcopy "720p" "BUILD\Xii-build\720p" /E /Q /I /Y
+xcopy "extras" "BUILD\Xii-build\extras" /E /Q /I /Y
+xcopy "NTSC" "BUILD\Xii-build\NTSC" /E /Q /I /Y
+xcopy "NTSC16x9" "BUILD\Xii-build\NTSC16x9" /E /Q /I /Y
+xcopy "PAL" "BUILD\Xii-build\PAL" /E /Q /I /Y
+xcopy "PAL16x9" "BUILD\Xii-build\PAL16x9" /E /Q /I /Y
+xcopy "fonts" "BUILD\Xii-build\fonts" /E /Q /I /Y
+xcopy "sounds" "BUILD\Xii-build\sounds" /E /Q /I /Y
+xcopy "*.xml" "BUILD\Xii-build\" /Q /I /Y
+xcopy "*.txt" "BUILD\Xii-build\" /Q /I /Y
 xcopy "Extra Stuff" "BUILD\Extra Stuff" /E /Q /I /Y
 
 ECHO ------------------------------

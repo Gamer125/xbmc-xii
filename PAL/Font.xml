@@ -93,6 +93,12 @@
 			<style>bold</style>
 		</font>
 		<font>
+			<name>xii48</name>
+			<filename>xii.ttf</filename>
+			<size>48</size>
+			<style>bold</style>
+		</font>
+		<font>
 			<name>bold20</name>
 			<filename>xii-medium.ttf</filename>
 			<size>20</size>
