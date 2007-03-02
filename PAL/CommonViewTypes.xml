@@ -413,9 +413,9 @@
 					<texture border="0,0,0,0">list2-nofocus.png</texture>
 				</control>
 				<control type="image">
-					<posx>12</posx>
+					<posx>15</posx>
 					<posy>9</posy>
-					<width>60</width>
+					<width>61</width>
 					<height>61</height>
 					<info>ListItem.Icon</info>
 				</control>
@@ -799,9 +799,9 @@
 	</include>
 	<include name="AllViewCommonThumbLarge">
 		<control type="panel" id="53">
-			<posx>120</posx>
+			<posx>103</posx>
 			<posy>95</posy>
-			<width>475</width>
+			<width>500</width>
 			<height>375</height>
 			<onleft>9000</onleft>
 			<onright>60</onright>
@@ -811,12 +811,19 @@
 			<viewtype label="538">bigicon</viewtype>
 			<pagecontrol>60</pagecontrol>
 			<include>contentpanelslide</include>
-			<itemlayout height="185" width="150">
+			<itemlayout height="160" width="160">
 				<control type="image">
-					<posx>10</posx>
-					<posy>5</posy>
-					<width>130</width>
-					<height>130</height>
+					<width>165</width>
+					<height>165</height>
+					<posx>0</posx>
+					<posy>0</posy>
+					<texture>button-tile-nofocus.png</texture>
+				</control>
+				<control type="image">
+					<posx>18</posx>
+					<posy>10</posy>
+					<width>125</width>
+					<height>125</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
@@ -827,9 +834,9 @@
 					<info>ListItem.Overlay</info>
 				</control>
 				<control type="label">
-					<posx>75</posx>
-					<posy>145</posy>
-					<width>140</width>
+					<posx>81</posx>
+					<posy>135</posy>
+					<width>115</width>
 					<height>22</height>
 					<font>font13</font>
 					<include>listselectedcolor</include>
@@ -839,17 +846,17 @@
 			</itemlayout>
 			<focusedlayout height="185" width="150">
 				<control type="image">
-					<width>140</width>
-					<height>140</height>
-					<posx>5</posx>
+					<width>165</width>
+					<height>165</height>
+					<posx>0</posx>
 					<posy>0</posy>
 					<texture>button-tile-focus.png</texture>
 				</control>
 				<control type="image">
-					<posx>10</posx>
-					<posy>5</posy>
-					<width>130</width>
-					<height>130</height>
+					<posx>18</posx>
+					<posy>10</posy>
+					<width>125</width>
+					<height>125</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
@@ -860,9 +867,9 @@
 					<info>ListItem.Overlay</info>
 				</control>
 				<control type="label">
-					<posx>75</posx>
-					<posy>145</posy>
-					<width>140</width>
+					<posx>81</posx>
+					<posy>135</posy>
+					<width>115</width>
 					<height>22</height>
 					<font>font13</font>
 					<include>listselectedcolor</include>
