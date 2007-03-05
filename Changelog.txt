@@ -1,2 +1,9 @@
+2007-03-05 Added:	Ability to define custom channel icons for final four buttons
+2007-03-05 Added:	Ability to set final four buttons to launch custom scripts and xbe
+2007-03-05 Added:	Channels to Settings menu
+2007-03-05 Changed:	Order of Settings choices
+2007-03-05 Removed:	Reload Skin from Settings menu
+2007-03-04 Changed:	Coding of Home.xml to reflect multiimage channels
+2007-03-04 Changed:	Some channel images
 2007-02-22 Changed:	Order and location of home buttons
 2007-02-22 Added:	Changelog.txt

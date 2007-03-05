@@ -51,7 +51,7 @@
 			<include>contentpanelslide</include>
 			<control type="radiobutton" id="20">
 				<description>enable animations</description>
-				<posx>145</posx>
+				<posx>135</posx>
 				<posy>90</posy>
 				<width>445</width>
 				<label>20079</label>
@@ -67,7 +67,7 @@
 			</control>
 			<control type="radiobutton" id="21">
 				<description>enable animations</description>
-				<posx>145</posx>
+				<posx>135</posx>
 				<posy>127</posy>
 				<width>445</width>
 				<label>Enable Scrollbars</label>
@@ -83,7 +83,7 @@
 			</control>
 			<control type="radiobutton" id="22">
 				<description>enable home weather overlays</description>
-				<posx>145</posx>
+				<posx>135</posx>
 				<posy>167</posy>
 				<width>445</width>
 				<include>90001</include>

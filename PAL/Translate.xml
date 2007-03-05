@@ -35,10 +35,26 @@
 	<include name="4f"><label>Gamesaves</label></include>
 	<include name="4g"><label>Profiles</label></include>
 	<include name="4h"><label>Skin Settings</label></include>
-	<include name="4i"><label>About xTV</label></include>
+	<include name="4i"><label>Channels</label></include>
 	<include name="4j"><label>Power Menu</label></include>		
 
 <!-- End system includes -->
+
+<!-- Start channel includes -->
+	<include name="channel10"><label>Channel 10</label></include>
+	<include name="channel11"><label>Channel 11</label></include>
+	<include name="channel12"><label>Channel 12</label></include>
+	<include name="channel13"><label>Channel 13</label></include>
+	<include name="chanenable10"><label>Enable Channel 10</label></include>
+	<include name="chanenable11"><label>Enable Channel 11</label></include>
+	<include name="chanenable12"><label>Enable Channel 12</label></include>
+	<include name="chanenable13"><label>Enable Channel 13</label></include>
+	<include name="chanimage"><label>Set channel image</label></include>
+	<include name="chanlabel"><label>Set channel label</label></include>
+	<include name="chanscript"><label>Set script path</label></include>
+	<include name="chanxbe"><label>Set .xbe path</label></include>
+	<include name="chanor"><label>OR</label></include>
+<!-- End channel includes -->
 
 <!-- Start video includes -->
 
