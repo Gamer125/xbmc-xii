@@ -59,14 +59,14 @@
 				<selected>!Skin.HasSetting(animated)</selected>
 				<onleft>9001</onleft>
 				<onright>9001</onright>
-				<onup>22</onup>
+				<onup>23</onup>
 				<ondown>21</ondown>
 				<textoffsetx>7</textoffsetx>
 				<texturefocus>list-focus.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
 			</control>
 			<control type="radiobutton" id="21">
-				<description>enable animations</description>
+				<description>enable scrollbars</description>
 				<posx>135</posx>
 				<posy>127</posy>
 				<width>445</width>
@@ -92,6 +92,22 @@
 				<onleft>9001</onleft>
 				<onright>9001</onright>
 				<onup>21</onup>
+				<ondown>23</ondown>
+				<textoffsetx>7</textoffsetx>
+				<texturefocus>list-focus.png</texturefocus>
+				<texturenofocus>-</texturenofocus>
+			</control>
+			<control type="radiobutton" id="23">
+				<description>Disable wide icon labels</description>
+				<posx>135</posx>
+				<posy>207</posy>
+				<width>445</width>
+				<include>90002</include>
+				<onclick>Skin.ToggleSetting(widelabels)</onclick>
+				<selected>!Skin.HasSetting(widelabels)</selected>
+				<onleft>9001</onleft>
+				<onright>9001</onright>
+				<onup>22</onup>
 				<ondown>50</ondown>
 				<textoffsetx>7</textoffsetx>
 				<texturefocus>list-focus.png</texturefocus>

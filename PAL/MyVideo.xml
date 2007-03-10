@@ -46,20 +46,7 @@
 			<info>System.Time</info>
 			<font>font28</font>
 			<include>textcolorblue</include>
-			<include>contentpanelslide</include>
-			<visible>Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(52) | Control.IsVisible(54) |Control.IsVisible(55)</visible> 
-		</control>
-		<control type="label">
-			<posx>105</posx>
-			<posy>440</posy>
-			<width>475</width>
-			<height>30</height>
-			<info>ListItem.Label</info>
-			<font>font28</font>
-			<include>textcolorblue</include>
-			<align>center</align>
-			<scroll>true</scroll>
-			<visible>Control.IsVisible(54)</visible>
+			<include>contentpanelslide</include> 
 		</control>
 		<control type="label" id="12">
 			<description>number of files text label</description>
@@ -171,6 +158,17 @@
   			<include>contentpanelslide</include>
   			<visible>Control.IsVisible(56)</visible>
   		</control>
+  		<control type="label" id="99">
+  			<description>Wrap label</description>
+  			<posx>673</posx>
+  			<posy>60</posy>
+  			<align>center</align>
+  			<include>506</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(57)</visible>
+  		</control>
 			<control type="button" id="3">
 				<description>Sort by button</description>
 				<posx>555</posx>
@@ -281,6 +279,7 @@
 		<include>AllViewCommonThumbOnly</include>
 		<include>WideIcon_Small</include>
 		<include>WideIcon_Big</include>
+		<include>VideoWrapView</include>
 		<include>AllViewCommonPageControls</include>
 		
 		<control type="image" id="1">

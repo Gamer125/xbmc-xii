@@ -7,8 +7,8 @@
 	<include name="503a"><label>Icons 3</label></include>
 	<include name="504"><label>Wide</label></include>
 	<include name="505"><label>Wide 2</label></include>
-	<include name="505"><label>Wrap</label></include>
-	<include name="505"><label>Wrap 2</label></include>
+	<include name="506"><label>Wrap</label></include>
+	<include name="507"><label>Wrap 2</label></include>
 
 <!-- End global includes -->
 
@@ -82,7 +82,7 @@
 
 <!-- Begin skin settings includes -->
 	<include name="90001"><label>Enable Home Weather Overlay</label></include>
-	<include name="90002"><label>Show Home Menu</label></include>
+	<include name="90002"><label>Disable Wide Icon Labels</label></include>
 	<include name="90003"><label>Set Home Title</label></include>
 	<include name="90004"><label>-</label></include>
 

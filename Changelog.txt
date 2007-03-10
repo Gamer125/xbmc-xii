@@ -1,3 +1,5 @@
+2007-03-05 Added:	New Viewtypes to video views
+2007-03-10 Changed:	Viewtypes for Videos and finalized their views
 2007-03-05 Added:	Ability to define custom channel icons for final four buttons
 2007-03-05 Added:	Ability to set final four buttons to launch custom scripts and xbe
 2007-03-05 Added:	Channels to Settings menu
