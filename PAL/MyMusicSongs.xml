@@ -8,176 +8,241 @@
 			<posy>0</posy>
 			<width>720</width>
 			<height>576</height>
-			<texture>background-music.png</texture>
-		</control>
-		<control type="label" id="1">
-			<description>xbox media center label</description>
-			<posx>200</posx>
-			<posy>63</posy>
-			<align>right</align>
-			<label>xbox media center</label>
-			<font>special12</font>
+			<texture>background-submenu.png</texture>
 		</control>
 		<control type="label" id="1">
 			<description>description label</description>
-			<posx>207</posx>
-			<posy>63</posy>
+			<posx>50</posx>
+			<posy>25</posy>
 			<align>left</align>
 			<label>2</label>
-			<font>special13</font>
+			<font>font32</font>
+			<include>textcolorblack</include>
 		</control>
-		<include>contentpanel</include>
+		<control type="image" id="1">
+			<description>Control box image</description>
+			<posx>100</posx>
+			<posy>89</posy>
+			<width>490</width>
+			<height>393</height>
+			<texture>box-blue.png</texture>
+			<visible>!Control.IsVisible(60) | Skin.HasSetting(UseScrollbars)</visible>
+		</control>
+		<control type="image" id="1">
+			<description>Control box image</description>
+			<posx>100</posx>
+			<posy>89</posy>
+			<width>525</width>
+			<height>393</height>
+			<texture>box-blue.png</texture>
+			<visible>Control.IsVisible(60) + !Skin.HasSetting(UseScrollbars)</visible>
+		</control>
+		
+		<control type="label" id="1">
+			<description>Time label</description>
+			<posx>360</posx>
+			<posy>490</posy>
+			<align>center</align>
+			<info>System.Time</info>
+			<font>font28</font>
+			<include>textcolorblue</include>
+			<include>contentpanelslide</include> 
+		</control>
 		<control type="label" id="12">
 			<description>number of files text label</description>
-			<posx>545</posx>
-			<posy>526</posy>
-			<align>right</align>
+			<posx>360</posx>
+			<posy>525</posy>
+			<align>center</align>
 			<label>-</label>
-			<font>font10</font>
+			<font>font20</font>
+			<include>textcolorblack</include>
 			<include>contentpanelslide</include>
 		</control>
+		
 		<control type="group" id="9000">
-			<include>buttonpanelslide</include>
+			<include>contentpanelslide</include>
 			<control type="button" id="2">
 				<description>View As Icons button</description>
-				<posx>50</posx>
-				<posy>120</posy>
-				<label>100</label>
-				<font>font13</font>
-				<onleft>50</onleft>
-				<onright>50</onright>
-				<onup>34</onup>
-				<ondown>3</ondown>
+				<posx>635</posx>
+				<posy>10</posy>
+				<width>80</width>
+				<height>80</height>
+				<onleft>3</onleft>
+				<onright>9009</onright>
+				<onup>50</onup>
+				<ondown>50</ondown>
+				<label>-</label>
+				<pulseonselect>false</pulseonselect>
+    		<texturefocus>button-viewas-focus.png</texturefocus>
+    		<texturenofocus>button-viewas-nofocus.png</texturenofocus>
+				<textcolor>00ffffff</textcolor>
+				<align>center</align>
+				<textxoff>5</textxoff>
+				<textyoff>50</textyoff>
 			</control>
+  		<control type="label" id="99">
+  			<description>List label</description>
+  			<posx>673</posx>
+  			<posy>60</posy>
+  			<align>center</align>
+  			<include>500</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(50)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>List 2 label</description>
+  			<posx>673</posx>
+  			<posy>60</posy>
+  			<align>center</align>
+  			<include>501</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(51)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Icon label</description>
+  			<posx>673</posx>
+  			<posy>60</posy>
+  			<align>center</align>
+  			<include>502</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(52)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Icon 2 label</description>
+  			<posx>673</posx>
+  			<posy>60</posy>
+  			<align>center</align>
+  			<include>503</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(53)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Wide label</description>
+  			<posx>673</posx>
+  			<posy>60</posy>
+  			<align>center</align>
+  			<include>504</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(55)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Wide 2 label</description>
+  			<posx>673</posx>
+  			<posy>60</posy>
+  			<align>center</align>
+  			<include>505</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(56)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Wrap label</description>
+  			<posx>673</posx>
+  			<posy>60</posy>
+  			<align>center</align>
+  			<include>506</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(57)</visible>
+  		</control>
 			<control type="button" id="3">
 				<description>Sort by button</description>
-				<posx>50</posx>
-				<posy>157</posy>
-				<label>103</label>
-				<font>font13</font>
-				<onleft>50</onleft>
-				<onright>4</onright>
-				<onup>2</onup>
-				<ondown>99</ondown>
+				<posx>555</posx>
+				<posy>10</posy>
+				<width>80</width>
+				<height>80</height>
+				<onleft>99</onleft>
+				<onright>2</onright>
+				<onup>4</onup>
+				<ondown>50</ondown>
+				<label>-</label>
+				<pulseonselect>false</pulseonselect>
+    		<texturefocus>button-tile-focus.png</texturefocus>
+    		<texturenofocus>button-tile-nofocus.png</texturenofocus>
+				<include>textcolorblue</include>
+				<align>center</align>
+				<textxoff>5</textxoff>
+				<textyoff>50</textyoff>
 			</control>
 			<control type="togglebutton" id="4">
 				<description>Sort asc</description>
+				<posx>575</posx>
+				<posy>20</posy>
 				<label>-</label>
-				<onleft>3</onleft>
-				<onright>50</onright>
-				<onup>2</onup>
-				<ondown>99</ondown>
-			</control>
-			<control type="radiobutton" id="99">
-				<description>Library button</description>
-				<posx>50</posx>
-				<posy>194</posy>
-				<label>$LOCALIZE[14022] $LOCALIZE[456]</label>
-				<font>font13</font>
-				<onclick>ReplaceWindow(mymusiclibrary)</onclick>
-				<onclick>SetFocus(99)</onclick>
-				<selected>Window.IsVisible(mymusiclibrary)</selected>
-				<onleft>50</onleft>
-				<onright>50</onright>
+				<width>40</width>
+				<height>40</height>
+				<onleft>99</onleft>
+				<onright>2</onright>
 				<onup>3</onup>
-				<ondown>31</ondown>
+				<ondown>3</ondown>
+    		<texturefocus>button-sorta-focus.png</texturefocus>
+    		<texturenofocus>button-sorta-nofocus.png</texturenofocus>
+    		<alttexturefocus>button-sortd-focus.png</alttexturefocus>
+    		<alttexturenofocus>button-sortd-nofocus.png</alttexturenofocus>
 			</control>
-			<control type="group">
-				<visible>Skin.HasSetting(bookmarkbuttons)</visible>
-				<control type="button" id="31">
-					<description>Bookmark button 1</description>
-					<posx>50</posx>
-					<posy>231</posy>
-					<label>$INFO[Skin.String(Musicbookmark1)]</label>
-					<onclick>ActivateWindow(MyMusic,$INFO[Skin.String(Musicbookmark1)])</onclick>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>99</onup>
-					<ondown>32</ondown>
-					<visible>Skin.HasSetting(MusicBM1)</visible>
-				</control>
-				<control type="label">
-					<description>Music Bookmark 1 String NOT SET label</description>
-					<posx>67</posx>
-					<posy>246</posy>
-					<width>150</width>
-					<aligny>center</aligny>
-					<label>20078</label>
-					<visible>!Skin.String(MusicBookmark1) + Skin.HasSetting(MusicBM1)</visible>
-					<include>textcolorgrey</include>
-				</control>
-				<control type="button" id="32">
-					<description>Bookmark button 2</description>
-					<posx>50</posx>
-					<posy>268</posy>
-					<label>$INFO[Skin.String(Musicbookmark2)]</label>
-					<onclick>ActivateWindow(MyMusic,$INFO[Skin.String(Musicbookmark2)])</onclick>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>31</onup>
-					<ondown>33</ondown>
-					<visible>Skin.HasSetting(MusicBM2)</visible>
-				</control>
-				<control type="label">
-					<description>Music Bookmark 2 String NOT SET label</description>
-					<posx>67</posx>
-					<posy>283</posy>
-					<width>150</width>
-					<aligny>center</aligny>
-					<label>20078</label>
-					<visible>!Skin.String(MusicBookmark2) + Skin.HasSetting(MusicBM2)</visible>
-					<include>textcolorgrey</include>
-				</control>
-				<control type="button" id="33">
-					<description>Bookmark button 3</description>
-					<posx>50</posx>
-					<posy>305</posy>
-					<label>$INFO[Skin.String(Musicbookmark3)]</label>
-					<onclick>ActivateWindow(MyMusic,$INFO[Skin.String(Musicbookmark3)])</onclick>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>32</onup>
-					<ondown>34</ondown>
-					<visible>Skin.HasSetting(MusicBM3)</visible>
-				</control>
-				<control type="label">
-					<description>Music Bookmark 3 String NOT SET label</description>
-					<posx>67</posx>
-					<posy>320</posy>
-					<width>150</width>
-					<aligny>center</aligny>
-					<label>20078</label>
-					<visible>!Skin.String(MusicBookmark3) + Skin.HasSetting(MusicBM3)</visible>
-					<include>textcolorgrey</include>
-				</control>
-				<control type="button" id="34">
-					<description>Bookmark button 4</description>
-					<posx>50</posx>
-					<posy>342</posy>
-					<label>$INFO[Skin.String(Musicbookmark4)]</label>
-					<onclick>ActivateWindow(MyMusic,$INFO[Skin.String(Musicbookmark4)])</onclick>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>33</onup>
-					<ondown>2</ondown>
-					<visible>Skin.HasSetting(MusicBM4)</visible>
-				</control>
-				<control type="label">
-					<description>Music Bookmark 4 String NOT SET label</description>
-					<posx>67</posx>
-					<posy>357</posy>
-					<width>150</width>
-					<aligny>center</aligny>
-					<label>20078</label>
-					<visible>!Skin.String(MusicBookmark4) + Skin.HasSetting(MusicBM4)</visible>
-					<include>textcolorgrey</include>
-				</control>
-			</control>
+			<control type="button" id="99">
+				<description>Library button</description>
+				<posx>475</posx>
+				<posy>10</posy>
+				<width>80</width>
+				<height>80</height>
+				<label>$LOCALIZE[14022]</label>
+				<font>font13</font>
+				<onclick>ReplaceWindow(myvideolibrary)</onclick>
+				<onclick>SetFocus(99)</onclick>
+				<onleft>7</onleft>
+				<onright>3</onright>
+				<onup>50</onup>
+				<ondown>50</ondown>
+				<pulseonselect>false</pulseonselect>
+    		<texturefocus>button-library-focus.png</texturefocus>
+    		<texturenofocus>button-library-nofocus.png</texturenofocus>
+				<include>textcolorblue</include>
+				<align>center</align>
+				<aligny>top</aligny>
+				<textxoff>5</textxoff>
+				<textyoff>50</textyoff>
+			</control>		
+  		<control type="button" id="9009">
+    		<description>Back</description>
+    		<posx>35</posx>
+    		<posy>490</posy>
+    		<width>200</width>
+    		<height>65</height>
+    		<include>backlabel</include>
+    		<font>font24</font>
+    		<align>center</align>
+    		<aligny>center</aligny>
+    		<include>textcolorblack</include>
+    		<onclick>ActivateWindow(Home)</onclick>
+    		<onleft>2</onleft>
+    		<onright>7</onright>
+    		<onup>50</onup>
+    		<ondown>50</ondown>
+    		<texturefocus>button-white-focus.png</texturefocus>
+    		<texturenofocus>button-white-nofocus.png</texturenofocus>
+			  <include>buttonpanelslide</include>
+  		</control>
 		</control>
+		
 		<include>OldListViewCommons</include>
 		<include>MusicViewCommons</include>
 		<include>AllViewCommonThumbSmall</include>
 		<include>AllViewCommonThumbLarge</include>
+		<include>WideIcon_Small</include>
+		<include>WideIcon_Big</include>
 		<include>AllViewCommonPageControls</include>
 		<control type="image" id="0">
 			<description>bg preview</description>

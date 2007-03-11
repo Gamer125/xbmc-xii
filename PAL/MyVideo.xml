@@ -61,7 +61,7 @@
 		
 		
 		<control type="group" id="9000">
-			<include>buttonpanelslide</include>
+			<include>contentpanelslide</include>
 			<control type="button" id="2">
 				<description>View As Icons button</description>
 				<posx>635</posx>
@@ -124,17 +124,6 @@
   			<include>textcolorblue</include>
   			<include>contentpanelslide</include>
   			<visible>Control.IsVisible(53)</visible>
-  		</control>
-  		<control type="label" id="99">
-  			<description>Icon 3 label</description>
-  			<posx>673</posx>
-  			<posy>60</posy>
-  			<align>center</align>
-  			<include>503a</include>
-  			<font>font14</font>
-  			<include>textcolorblue</include>
-  			<include>contentpanelslide</include>
-  			<visible>Control.IsVisible(54)</visible>
   		</control>
   		<control type="label" id="99">
   			<description>Wide label</description>
@@ -269,14 +258,13 @@
     		<ondown>50</ondown>
     		<texturefocus>button-white-focus.png</texturefocus>
     		<texturenofocus>button-white-nofocus.png</texturenofocus>
-  			<include>homebuttonanimation</include>
+			  <include>buttonpanelslide</include>
   		</control>
 		</control>
 		<include>OldListViewCommons</include>
 		<include>VideoViewCommons</include>
 		<include>AllViewCommonThumbSmall</include>
 		<include>AllViewCommonThumbLarge</include>
-		<include>AllViewCommonThumbOnly</include>
 		<include>WideIcon_Small</include>
 		<include>WideIcon_Big</include>
 		<include>VideoWrapView</include>
