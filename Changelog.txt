@@ -1,3 +1,5 @@
+2007-03-15 Changed:	Coding and formatting of MyScripts.xml
+2007-03-15 Fixed:	Sizing of left and right arrows in Settings
 2007-03-11 Added:	Xii coding for Programs and Music
 2007-03-10 Added:	New Viewtypes to video views
 2007-03-10 Changed:	Viewtypes for Videos and finalized their views
