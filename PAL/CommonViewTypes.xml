@@ -145,10 +145,10 @@
 					<texture border="0,0,0,0">list2-nofocus.png</texture>
 				</control>
 				<control type="image">
-					<posx>15</posx>
+					<posx>16</posx>
 					<posy>9</posy>
-					<width>61</width>
-					<height>61</height>
+					<width>58</width>
+					<height>58</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
@@ -216,18 +216,18 @@
 			<include>contentpanelslide</include>
 			<itemlayout height="130">
 				<control type="image">
-					<width>440</width>
-					<height>120</height>
-					<posx>0</posx>
-					<posy>0</posy>
-					<texture>blue-rectangleNF.png</texture>
-				</control>
-				<control type="image">
 					<posx>5</posx>
 					<posy>0</posy>
 					<width>120</width>
 					<height>120</height>
 					<info>ListItem.Icon</info>
+				</control>
+				<control type="image">
+					<width>440</width>
+					<height>120</height>
+					<posx>0</posx>
+					<posy>0</posy>
+					<texture>blue-rectangleNF.png</texture>
 				</control>
 				<control type="image">
 					<posx>125</posx>
@@ -279,6 +279,13 @@
 			</itemlayout>
 			<focusedlayout height="130">
 				<control type="image">
+					<posx>5</posx>
+					<posy>0</posy>
+					<width>120</width>
+					<height>120</height>
+					<info>ListItem.Icon</info>
+				</control>
+				<control type="image">
 					<width>440</width>
 					<height>120</height>
 					<posx>0</posx>
@@ -293,13 +300,6 @@
 					<posy>0</posy>
 					<texture>blue-rectangleNF.png</texture>
 					<visible>!Control.HasFocus(54)</visible>
-				</control>
-				<control type="image">
-					<posx>5</posx>
-					<posy>0</posy>
-					<width>120</width>
-					<height>120</height>
-					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
 					<posx>125</posx>
@@ -413,10 +413,10 @@
 					<texture border="0,0,0,0">list2-nofocus.png</texture>
 				</control>
 				<control type="image">
-					<posx>15</posx>
+					<posx>16</posx>
 					<posy>9</posy>
-					<width>61</width>
-					<height>61</height>
+					<width>58</width>
+					<height>58</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
@@ -484,18 +484,18 @@
 			<include>contentpanelslide</include>
 			<itemlayout height="130">
 				<control type="image">
-					<width>440</width>
-					<height>120</height>
-					<posx>0</posx>
-					<posy>0</posy>
-					<texture>blue-rectangleNF.png</texture>
-				</control>
-				<control type="image">
 					<posx>5</posx>
 					<posy>0</posy>
 					<width>80</width>
 					<height>120</height>
 					<info>ListItem.Icon</info>
+				</control>
+				<control type="image">
+					<width>440</width>
+					<height>120</height>
+					<posx>0</posx>
+					<posy>0</posy>
+					<texture>blue-rectangleNF.png</texture>
 				</control>
 				<control type="image">
 					<posx>85</posx>
@@ -547,6 +547,13 @@
 			</itemlayout>
 			<focusedlayout height="130">
 				<control type="image">
+					<posx>5</posx>
+					<posy>0</posy>
+					<width>80</width>
+					<height>120</height>
+					<info>ListItem.Icon</info>
+				</control>
+				<control type="image">
 					<width>440</width>
 					<height>120</height>
 					<posx>0</posx>
@@ -561,13 +568,6 @@
 					<posy>0</posy>
 					<texture>blue-rectangleNF.png</texture>
 					<visible>!Control.HasFocus(54)</visible>
-				</control>
-				<control type="image">
-					<posx>5</posx>
-					<posy>0</posy>
-					<width>80</width>
-					<height>120</height>
-					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
 					<posx>85</posx>
@@ -681,10 +681,10 @@
 					<texture border="0,0,0,0">list2-nofocus.png</texture>
 				</control>
 				<control type="image">
-					<posx>15</posx>
+					<posx>16</posx>
 					<posy>9</posy>
-					<width>61</width>
-					<height>61</height>
+					<width>58</width>
+					<height>58</height>
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="image">
@@ -817,7 +817,7 @@
 					<height>165</height>
 					<posx>0</posx>
 					<posy>0</posy>
-					<texture>button-tile-nofocus.png</texture>
+					<texture>button-tile-nofocus-2.png</texture>
 				</control>
 				<control type="image">
 					<posx>18</posx>
@@ -850,7 +850,7 @@
 					<height>165</height>
 					<posx>0</posx>
 					<posy>0</posy>
-					<texture>button-tile-focus.png</texture>
+					<texture>button-tile-focus-2.png</texture>
 				</control>
 				<control type="image">
 					<posx>18</posx>
@@ -906,7 +906,7 @@
 					<height>80</height>
 					<posx>0</posx>
 					<posy>0</posy>
-					<texture border="0,0,0,0">WideIconFO.png</texture>
+					<texture border="0,0,0,0">WideIcon.png</texture>
 				</control>
 				<control type="label">
 					<posx>110</posx>
@@ -941,7 +941,7 @@
 					<height>80</height>
 					<posx>0</posx>
 					<posy>0</posy>
-					<texture border="0,0,0,0">WideIcon.png</texture>
+					<texture border="0,0,0,0">WideIconFO.png</texture>
 				</control>
 				<control type="label">
 					<posx>110</posx>
@@ -1004,7 +1004,7 @@
 					<height>105</height>
 					<posx>0</posx>
 					<posy>0</posy>
-					<texture border="0,0,0,0">WideIconFO2.png</texture>
+					<texture border="0,0,0,0">WideIcon2.png</texture>
 				</control>
 				<control type="image">
 					<posx>400</posx>
@@ -1039,7 +1039,7 @@
 					<height>105</height>
 					<posx>0</posx>
 					<posy>0</posy>
-					<texture>WideIcon2.png</texture>
+					<texture>WideIconFO2.png</texture>
 				</control>
 				<control type="image">
 					<posx>400</posx>
@@ -1175,7 +1175,7 @@
   		<texturedownfocus>button-lpage-focus.png</texturedownfocus>
 			<include>contentpanelslide</include>
 			<include>textcolorblack</include>
-			<textoffsetx>145</textoffsetx>
+			<textoffsetx>137</textoffsetx>
 			<visible>Skin.HasSetting(UseScrollbars)</visible>
       <visible>!Control.IsVisible(57)</visible>
 		</control>

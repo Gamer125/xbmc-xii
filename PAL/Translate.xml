@@ -9,6 +9,8 @@
 	<include name="505"><label>Wide 2</label></include>
 	<include name="506"><label>Wrap</label></include>
 	<include name="507"><label>Wrap 2</label></include>
+	<include name="510"><label>Sort</label></include>
+	<include name="511"><label>Stacking</label></include>
 
 <!-- End global includes -->
 

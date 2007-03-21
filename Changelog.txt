@@ -1,3 +1,13 @@
+To Do:
+
+Add wrap views for music and programs and scripts
+Create buttons for library mode and mypictures
+Update code once buttons ready
+
+Changelog:
+2007-03-21 Fixed:	Arrow sizes in settings to reflect new images
+2007-03-21 Changed:	View labels to white when focused by removing buttons labels and adding individual labels
+2007-03-21 Changed:	Old images with new ones
 2007-03-15 Changed:	Coding and formatting of MyScripts.xml
 2007-03-15 Fixed:	Sizing of left and right arrows in Settings
 2007-03-11 Added:	Xii coding for Programs and Music

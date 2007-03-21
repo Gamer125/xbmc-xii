@@ -409,10 +409,10 @@
 		
 		<control type="image" id="1">
   		<description>Left Arrow</description>
-  		<posx>50</posx>
-  		<posy>243</posy>
-  		<width>31</width>
-  		<height>52</height>
+  		<posx>15</posx>
+  		<posy>220</posy>
+  		<width>100</width>
+  		<height>100</height>
   		<texture>arrow-left.png</texture>
 			<visible>Control.IsVisible(6) | Control.IsVisible(7) |Control.IsVisible(8) | Control.IsVisible(9) | Control.IsVisible(10) | Control.IsVisible(11) |Control.IsVisible(12) | Control.IsVisible(13)</visible>	
   		<include>homebuttonanimation</include>
@@ -420,10 +420,10 @@
 		</control>
 		<control type="image" id="1">
   		<description>Right Arrow</description>
-  		<posx>640</posx>
-  		<posy>243</posy>
-  		<width>31</width>
-  		<height>52</height>
+  		<posx>605</posx>
+  		<posy>220</posy>
+  		<width>100</width>
+  		<height>100</height>
   		<texture>arrow-right.png</texture>
 			<visible>Control.IsVisible(2) | Control.IsVisible(3) |Control.IsVisible(4) | Control.IsVisible(5) | Control.IsVisible(6) | Control.IsVisible(7) |Control.IsVisible(8) | Control.IsVisible(9)</visible>
   		<include>homebuttonanimation</include>

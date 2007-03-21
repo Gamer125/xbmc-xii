@@ -61,11 +61,11 @@
 		
 		
 		<control type="group" id="9000">
-			<include>contentpanelslide</include>
+			<include>buttonpanelslide</include>
 			<control type="button" id="2">
 				<description>View As Icons button</description>
 				<posx>635</posx>
-				<posy>10</posy>
+				<posy>5</posy>
 				<width>80</width>
 				<height>80</height>
 				<onleft>3</onleft>
@@ -82,86 +82,163 @@
 				<textyoff>50</textyoff>
 			</control>
   		<control type="label" id="99">
-  			<description>List label</description>
+  			<description>List label no focus</description>
   			<posx>673</posx>
-  			<posy>60</posy>
+  			<posy>55</posy>
   			<align>center</align>
   			<include>500</include>
   			<font>font14</font>
   			<include>textcolorblue</include>
   			<include>contentpanelslide</include>
-  			<visible>Control.IsVisible(50)</visible>
+  			<visible>Control.IsVisible(50) + !Control.HasFocus(2)</visible>
   		</control>
   		<control type="label" id="99">
-  			<description>List 2 label</description>
+  			<description>List label focus</description>
   			<posx>673</posx>
-  			<posy>60</posy>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>500</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(50) + Control.HasFocus(2)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>List 2 label nofocus</description>
+  			<posx>673</posx>
+  			<posy>55</posy>
   			<align>center</align>
   			<include>501</include>
   			<font>font14</font>
   			<include>textcolorblue</include>
   			<include>contentpanelslide</include>
-  			<visible>Control.IsVisible(51)</visible>
+  			<visible>Control.IsVisible(51) + !Control.HasFocus(2)</visible>
   		</control>
   		<control type="label" id="99">
-  			<description>Icon label</description>
+  			<description>List 2 label focus</description>
   			<posx>673</posx>
-  			<posy>60</posy>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>501</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(51) + Control.HasFocus(2)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Icon label nofocus</description>
+  			<posx>673</posx>
+  			<posy>55</posy>
   			<align>center</align>
   			<include>502</include>
   			<font>font14</font>
   			<include>textcolorblue</include>
   			<include>contentpanelslide</include>
-  			<visible>Control.IsVisible(52)</visible>
+  			<visible>Control.IsVisible(52) + !Control.HasFocus(2)</visible>
   		</control>
   		<control type="label" id="99">
-  			<description>Icon 2 label</description>
+  			<description>Icon label focus</description>
   			<posx>673</posx>
-  			<posy>60</posy>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>502</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(52) + Control.HasFocus(2)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Icon 2 label nofocus</description>
+  			<posx>673</posx>
+  			<posy>55</posy>
   			<align>center</align>
   			<include>503</include>
   			<font>font14</font>
   			<include>textcolorblue</include>
   			<include>contentpanelslide</include>
-  			<visible>Control.IsVisible(53)</visible>
+  			<visible>Control.IsVisible(53) + !Control.HasFocus(2)</visible>
   		</control>
   		<control type="label" id="99">
-  			<description>Wide label</description>
+  			<description>Icon 2 label focus</description>
   			<posx>673</posx>
-  			<posy>60</posy>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>503</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(53) + Control.HasFocus(2)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Wide label nofocus</description>
+  			<posx>673</posx>
+  			<posy>55</posy>
   			<align>center</align>
   			<include>504</include>
   			<font>font14</font>
   			<include>textcolorblue</include>
   			<include>contentpanelslide</include>
-  			<visible>Control.IsVisible(55)</visible>
+  			<visible>Control.IsVisible(55) + !Control.HasFocus(2)</visible>
   		</control>
   		<control type="label" id="99">
-  			<description>Wide 2 label</description>
+  			<description>Wide label focus</description>
   			<posx>673</posx>
-  			<posy>60</posy>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>504</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(55) + Control.HasFocus(2)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Wide 2 label nofocus</description>
+  			<posx>673</posx>
+  			<posy>55</posy>
   			<align>center</align>
   			<include>505</include>
   			<font>font14</font>
   			<include>textcolorblue</include>
   			<include>contentpanelslide</include>
-  			<visible>Control.IsVisible(56)</visible>
+  			<visible>Control.IsVisible(56) + !Control.HasFocus(2)</visible>
   		</control>
   		<control type="label" id="99">
-  			<description>Wrap label</description>
+  			<description>Wide 2 label focus</description>
   			<posx>673</posx>
-  			<posy>60</posy>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>505</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(56) + Control.HasFocus(2)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Wrap label nofocus</description>
+  			<posx>673</posx>
+  			<posy>55</posy>
   			<align>center</align>
   			<include>506</include>
   			<font>font14</font>
   			<include>textcolorblue</include>
   			<include>contentpanelslide</include>
-  			<visible>Control.IsVisible(57)</visible>
+  			<visible>Control.IsVisible(57) + !Control.HasFocus(2)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Wrap label focus</description>
+  			<posx>673</posx>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>506</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.IsVisible(57) + Control.HasFocus(2)</visible>
   		</control>
 			<control type="button" id="3">
 				<description>Sort by button</description>
 				<posx>555</posx>
-				<posy>10</posy>
+				<posy>5</posy>
 				<width>80</width>
 				<height>80</height>
 				<onleft>99</onleft>
@@ -170,17 +247,40 @@
 				<ondown>50</ondown>
 				<label>-</label>
 				<pulseonselect>false</pulseonselect>
+				<wrapmultiline>true</wrapmultiline> 
     		<texturefocus>button-tile-focus.png</texturefocus>
     		<texturenofocus>button-tile-nofocus.png</texturenofocus>
-				<include>textcolorblue</include>
+				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<textxoff>5</textxoff>
 				<textyoff>50</textyoff>
 			</control>
+  		<control type="label" id="99">
+  			<description>Sort label nofocus</description>
+  			<posx>593</posx>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>510</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>!Control.HasFocus(3)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Sort label focus</description>
+  			<posx>593</posx>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>510</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.HasFocus(3)</visible>
+  		</control>
 			<control type="togglebutton" id="4">
 				<description>Sort asc</description>
 				<posx>575</posx>
-				<posy>20</posy>
+				<posy>15</posy>
 				<label>-</label>
 				<width>40</width>
 				<height>40</height>
@@ -196,7 +296,7 @@
 			<control type="button" id="99">
 				<description>Library button</description>
 				<posx>475</posx>
-				<posy>10</posy>
+				<posy>5</posy>
 				<width>80</width>
 				<height>80</height>
 				<label>$LOCALIZE[14022]</label>
@@ -210,18 +310,40 @@
 				<pulseonselect>false</pulseonselect>
     		<texturefocus>button-library-focus.png</texturefocus>
     		<texturenofocus>button-library-nofocus.png</texturenofocus>
-				<include>textcolorblue</include>
+				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>
 				<textxoff>5</textxoff>
 				<textyoff>50</textyoff>
 			</control>
+  		<control type="label" id="99">
+  			<description>Library label nofocus</description>
+  			<posx>513</posx>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<label>14022</label>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>!Control.HasFocus(99)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Library label focus</description>
+  			<posx>513</posx>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<label>14022</label>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.HasFocus(99)</visible>
+  		</control>
 			<control type="button" id="7">
 				<description>Stacking</description>
 				<width>80</width>
 				<height>80</height>
 				<posx>395</posx>
-				<posy>10</posy>
+				<posy>5</posy>
 				<label>346</label>
 				<altlabel>346</altlabel>
 				<onleft>9009</onleft>
@@ -234,12 +356,34 @@
     		<alttexturefocus>button-unstack-focus.png</alttexturefocus>
     		<alttexturenofocus>button-unstack-nofocus.png</alttexturenofocus>
       	<usealttexture>!Player.IsPaused</usealttexture>
-				<include>textcolorblue</include>
+				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>
 				<textxoff>5</textxoff>
 				<textyoff>50</textyoff>
-			</control>			
+			</control>
+  		<control type="label" id="99">
+  			<description>Stack label nofocus</description>
+  			<posx>433</posx>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>511</include>
+  			<font>font14</font>
+  			<include>textcolorblue</include>
+  			<include>contentpanelslide</include>
+  			<visible>!Control.HasFocus(7)</visible>
+  		</control>
+  		<control type="label" id="99">
+  			<description>Stack label focus</description>
+  			<posx>433</posx>
+  			<posy>55</posy>
+  			<align>center</align>
+  			<include>511</include>
+  			<font>font14</font>
+  			<include>textcolorwhite</include>
+  			<include>contentpanelslide</include>
+  			<visible>Control.HasFocus(7)</visible>
+  		</control>			
   		<control type="button" id="9009">
     		<description>Back</description>
     		<posx>35</posx>
