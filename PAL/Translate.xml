@@ -11,6 +11,11 @@
 	<include name="507"><label>Wrap 2</label></include>
 	<include name="510"><label>Sort</label></include>
 	<include name="511"><label>Stacking</label></include>
+	<include name="512"><label>Show All</label></include>
+	<include name="513"><label>IMDB</label></include>
+	<include name="514"><label>Search</label></include>
+	<include name="515"><label>Unlock</label></include>
+	<include name="516"><label>Party</label></include>
 
 <!-- End global includes -->
 

@@ -293,7 +293,7 @@
     		<alttexturefocus>button-sortd-focus.png</alttexturefocus>
     		<alttexturenofocus>button-sortd-nofocus.png</alttexturenofocus>
 			</control>
-			<control type="button" id="99">
+			<control type="radiobutton" id="99">
 				<description>Library button</description>
 				<posx>475</posx>
 				<posy>5</posy>
@@ -310,6 +310,9 @@
 				<pulseonselect>false</pulseonselect>
     		<texturefocus>button-library-focus.png</texturefocus>
     		<texturenofocus>button-library-nofocus.png</texturenofocus>
+      	<textureradiofocus>-</textureradiofocus>
+      	<textureradionofocus>-</textureradionofocus>
+      	<selected>Window.IsVisible(myvideolibrary)</selected>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>

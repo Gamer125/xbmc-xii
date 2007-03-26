@@ -3,8 +3,10 @@ To Do:
 Add wrap views for music and programs and scripts
 Create buttons for library mode and mypictures
 Update code once buttons ready
+Library mode text is white and can't be seen
 
 Changelog:
+2007-03-21 Added:	Libary modes with placer buttons
 2007-03-21 Fixed:	Arrow sizes in settings to reflect new images
 2007-03-21 Changed:	View labels to white when focused by removing buttons labels and adding individual labels
 2007-03-21 Changed:	Old images with new ones
