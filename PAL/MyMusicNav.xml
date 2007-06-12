@@ -15,7 +15,7 @@
 			<posx>50</posx>
 			<posy>25</posy>
 			<align>left</align>
-			<label>3</label>
+			<label>2</label>
 			<font>font32</font>
 			<include>textcolorblack</include>
 		</control>
@@ -311,7 +311,7 @@
 				<height>80</height>
 				<label>$LOCALIZE[14022]</label>
 				<font>font13</font>
-				<onclick>ReplaceWindow(myvideofiles)</onclick>
+				<onclick>ReplaceWindow(mymusicfiles)</onclick>
 				<onclick>SetFocus(99)</onclick>
 				<onleft>17</onleft>
 				<onright>3</onright>
@@ -322,7 +322,7 @@
     		<texturenofocus>button-library-nofocus.png</texturenofocus>
       	<textureradiofocus>-</textureradiofocus>
       	<textureradionofocus>-</textureradionofocus>
-      	<selected>Window.IsVisible(myvideolibrary)</selected>
+      	<selected>Window.IsVisible(mymusiclibrary)</selected>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>
@@ -363,8 +363,8 @@
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<pulseonselect>false</pulseonselect>
-    		<texturefocus>button-tile-focus.png</texturefocus>
-    		<texturenofocus>button-tile-nofocus.png</texturenofocus>
+    		<texturefocus>button-show-focus.png</texturefocus>
+    		<texturenofocus>button-show-nofocus.png</texturenofocus>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>
@@ -405,8 +405,8 @@
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<pulseonselect>false</pulseonselect>
-    		<texturefocus>button-tile-focus.png</texturefocus>
-    		<texturenofocus>button-tile-nofocus.png</texturenofocus>
+    		<texturefocus>button-search-focus.png</texturefocus>
+    		<texturenofocus>button-search-nofocus.png</texturenofocus>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>
@@ -447,8 +447,8 @@
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<pulseonselect>false</pulseonselect>
-    		<texturefocus>button-tile-focus.png</texturefocus>
-    		<texturenofocus>button-tile-nofocus.png</texturenofocus>
+    		<texturefocus>button-party-focus.png</texturefocus>
+    		<texturenofocus>button-party-nofocus.png</texturenofocus>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>

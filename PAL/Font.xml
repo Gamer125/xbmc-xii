@@ -11,6 +11,12 @@
 			<size>14</size>
 		</font>
 		<font>
+			<name>bold10</name>
+			<filename>normal.ttf</filename>
+			<size>14</size>
+			<style>bold</style>
+		</font>
+		<font>
 			<name>font12</name>
 			<filename>normal.ttf</filename>
 			<size>14</size>

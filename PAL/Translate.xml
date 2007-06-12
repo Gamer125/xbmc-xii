@@ -1,4 +1,5 @@
 <includes>
+
 <!-- Start global includes -->
 	<include name="500"><label>List</label></include>
 	<include name="501"><label>List 2</label></include>
@@ -16,7 +17,6 @@
 	<include name="514"><label>Search</label></include>
 	<include name="515"><label>Unlock</label></include>
 	<include name="516"><label>Party</label></include>
-
 <!-- End global includes -->
 
 <!-- Start home includes -->
@@ -26,7 +26,6 @@
 	<include name="button11"><label>News</label></include>
 	<include name="button12"><label>Shop</label></include>
 	<include name="button13"><label>Power</label></include>
-
 <!-- End home includes -->
 
 <!-- Start system includes -->
@@ -44,7 +43,6 @@
 	<include name="4h"><label>Skin Settings</label></include>
 	<include name="4i"><label>Channels</label></include>
 	<include name="4j"><label>Power Menu</label></include>		
-
 <!-- End system includes -->
 
 <!-- Start channel includes -->
@@ -64,45 +62,39 @@
 <!-- End channel includes -->
 
 <!-- Start video includes -->
-
 	<include name="10101"><label>AllVideos</label></include>
 	<include name="10102"><label>Movie Trailers</label></include>
 	<include name="10103"><label>Video Playlist</label></include>
 	<include name="10104"><label>Movie Information</label></include>
-
 <!-- End video includes -->
 
 <!-- Start programs includes -->
-
 	<include name="10201"><label>Gamesaves</label></include>
-
 <!-- End programs includes -->
 
 <!-- Start music includes -->
-
 	<include name="10301"><label>AllMusic</label></include>
 	<include name="10302"><label>Music Playlist</label></include>
-
 <!-- End music includes -->
 
-
+<!-- Start weather includes -->
+	<include name="weather01"><label>Today</label></include>
+<!-- End weather includes -->
 
 <!-- Begin skin settings includes -->
 	<include name="90001"><label>Enable Home Weather Overlay</label></include>
 	<include name="90002"><label>Disable Wide Icon Labels</label></include>
 	<include name="90003"><label>Set Home Title</label></include>
 	<include name="90004"><label>-</label></include>
-
 <!-- End skin settings includes -->
 
 <!-- Start progress includes -->
-
 	<include name="2x"><label>2x</label></include>
 	<include name="4x"><label>4x</label></include>
 	<include name="8x"><label>8x</label></include>
 	<include name="16x"><label>16x</label></include>
 	<include name="32x"><label>32x</label></include>
-
 <!-- End progress includes -->
+
 </includes>
 
