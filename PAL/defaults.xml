@@ -218,7 +218,7 @@
 	<default type="radiobutton">
 		<posx>50</posx>
 		<posy>268</posy>
-		<width>150</width>
+		<width>160</width>
 		<height>35</height>
 		<textureradiofocus>radiobutton-focus.png</textureradiofocus>
 		<textureradionofocus>radiobutton-nofocus.png</textureradionofocus>
