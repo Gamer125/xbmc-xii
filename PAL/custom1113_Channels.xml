@@ -160,17 +160,6 @@
 				<align>-</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="25">
-				<description>Set button 10 label display</description>
-				<posx>570</posx>
-				<posy>215</posy>
-				<width>250</width>
-				<info>Skin.String(Button10label)</info>
-				<visible>Skin.HasSetting(Button10set)</visible>
-				<align>right</align>
-				<scroll>true</scroll>
-				<include>textcolorwhite</include>
-			</control>
 			<control type="button" id="25">
 				<description>Set button 10 label</description>
 				<posx>135</posx>
@@ -189,12 +178,12 @@
 				<align>-</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="26">
-				<description>Set button 10 script path display</description>
+			<control type="label" id="25">
+				<description>Set button 10 label display</description>
 				<posx>570</posx>
-				<posy>255</posy>
+				<posy>215</posy>
 				<width>250</width>
-				<info>Skin.String(Button10script)</info>
+				<info>Skin.String(Button10label)</info>
 				<visible>Skin.HasSetting(Button10set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -220,22 +209,22 @@
 				<aligny>center</aligny>
 			</control>
 			<control type="label" id="26">
-				<description>OR</description>
-				<posx>250</posx>
-				<posy>275</posy>
+				<description>Set button 10 script path display</description>
+				<posx>570</posx>
+				<posy>255</posy>
 				<width>250</width>
-				<include>chanor</include>
+				<info>Skin.String(Button10script)</info>
 				<visible>Skin.HasSetting(Button10set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
 				<include>textcolorwhite</include>
 			</control>
 			<control type="label" id="26">
-				<description>Set button 10 xbe path display</description>
-				<posx>570</posx>
-				<posy>295</posy>
+				<description>OR</description>
+				<posx>250</posx>
+				<posy>275</posy>
 				<width>250</width>
-				<info>Skin.String(Button10xbe)</info>
+				<include>chanor</include>
 				<visible>Skin.HasSetting(Button10set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -259,6 +248,17 @@
 				<texturenofocus>-</texturenofocus>
 				<align>-</align>
 				<aligny>center</aligny>
+			</control>
+			<control type="label" id="26">
+				<description>Set button 10 xbe path display</description>
+				<posx>570</posx>
+				<posy>295</posy>
+				<width>250</width>
+				<info>Skin.String(Button10xbe)</info>
+				<visible>Skin.HasSetting(Button10set)</visible>
+				<align>right</align>
+				<scroll>true</scroll>
+				<include>textcolorwhite</include>
 			</control>
 			<control type="image" id="28">
 				<description>Button Plain</description>
@@ -386,17 +386,6 @@
 				<align>-</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="33">
-				<description>Set button 11 label display</description>
-				<posx>570</posx>
-				<posy>215</posy>
-				<width>250</width>
-				<info>Skin.String(Button11label)</info>
-				<visible>Skin.HasSetting(Button11set)</visible>
-				<align>right</align>
-				<scroll>true</scroll>
-				<include>textcolorwhite</include>
-			</control>
 			<control type="button" id="33">
 				<description>Set button 11 label</description>
 				<posx>135</posx>
@@ -415,12 +404,12 @@
 				<align>-</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="34">
-				<description>Set button 11 script path display</description>
+			<control type="label" id="33">
+				<description>Set button 11 label display</description>
 				<posx>570</posx>
-				<posy>255</posy>
+				<posy>215</posy>
 				<width>250</width>
-				<info>Skin.String(Button11script)</info>
+				<info>Skin.String(Button11label)</info>
 				<visible>Skin.HasSetting(Button11set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -445,23 +434,23 @@
 				<texturefocus>list-focus.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
 			</control>
-			<control type="label" id="35">
-				<description>OR</description>
-				<posx>250</posx>
-				<posy>275</posy>
+			<control type="label" id="34">
+				<description>Set button 11 script path display</description>
+				<posx>570</posx>
+				<posy>255</posy>
 				<width>250</width>
-				<include>chanor</include>
+				<info>Skin.String(Button11script)</info>
 				<visible>Skin.HasSetting(Button11set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
 				<include>textcolorwhite</include>
 			</control>
 			<control type="label" id="35">
-				<description>Set button 11 xbe path display</description>
-				<posx>570</posx>
-				<posy>295</posy>
+				<description>OR</description>
+				<posx>250</posx>
+				<posy>275</posy>
 				<width>250</width>
-				<info>Skin.String(Button11xbe)</info>
+				<include>chanor</include>
 				<visible>Skin.HasSetting(Button11set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -485,6 +474,17 @@
 				<texturenofocus>-</texturenofocus>
 				<align>-</align>
 				<aligny>center</aligny>
+			</control>
+			<control type="label" id="35">
+				<description>Set button 11 xbe path display</description>
+				<posx>570</posx>
+				<posy>295</posy>
+				<width>250</width>
+				<info>Skin.String(Button11xbe)</info>
+				<visible>Skin.HasSetting(Button11set)</visible>
+				<align>right</align>
+				<scroll>true</scroll>
+				<include>textcolorwhite</include>
 			</control>
 			<control type="image" id="36">
 				<description>Button Plain</description>
@@ -565,17 +565,6 @@
 				<texturefocus>list-focus.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
 			</control>
-			<control type="label" id="42">
-				<description>Set button 12 image path display</description>
-				<posx>570</posx>
-				<posy>175</posy>
-				<width>250</width>
-				<info>Skin.String(Button12image)</info>
-				<visible>Skin.HasSetting(Button12set)</visible>
-				<align>right</align>
-				<scroll>true</scroll>
-				<include>textcolorwhite</include>
-			</control>
 			<control type="button" id="42">
 				<description>Set button 12 image</description>
 				<posx>135</posx>
@@ -594,12 +583,12 @@
 				<align>-</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="43">
-				<description>Set button 12 label display</description>
+			<control type="label" id="42">
+				<description>Set button 12 image path display</description>
 				<posx>570</posx>
-				<posy>215</posy>
+				<posy>175</posy>
 				<width>250</width>
-				<info>Skin.String(Button12label)</info>
+				<info>Skin.String(Button12image)</info>
 				<visible>Skin.HasSetting(Button12set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -623,12 +612,12 @@
 				<align>-</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="44">
-				<description>Set button 12 script path display</description>
+			<control type="label" id="43">
+				<description>Set button 12 label display</description>
 				<posx>570</posx>
-				<posy>255</posy>
+				<posy>215</posy>
 				<width>250</width>
-				<info>Skin.String(Button12script)</info>
+				<info>Skin.String(Button12label)</info>
 				<visible>Skin.HasSetting(Button12set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -653,23 +642,23 @@
 				<texturefocus>list-focus.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
 			</control>
-			<control type="label" id="45">
-				<description>OR</description>
-				<posx>250</posx>
-				<posy>275</posy>
+			<control type="label" id="44">
+				<description>Set button 12 script path display</description>
+				<posx>570</posx>
+				<posy>255</posy>
 				<width>250</width>
-				<include>chanor</include>
+				<info>Skin.String(Button12script)</info>
 				<visible>Skin.HasSetting(Button12set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
 				<include>textcolorwhite</include>
 			</control>
 			<control type="label" id="45">
-				<description>Set button 12 xbe path display</description>
-				<posx>570</posx>
-				<posy>295</posy>
+				<description>OR</description>
+				<posx>250</posx>
+				<posy>275</posy>
 				<width>250</width>
-				<info>Skin.String(Button12xbe)</info>
+				<include>chanor</include>
 				<visible>Skin.HasSetting(Button12set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -693,6 +682,17 @@
 				<texturenofocus>-</texturenofocus>
 				<align>-</align>
 				<aligny>center</aligny>
+			</control>
+			<control type="label" id="45">
+				<description>Set button 12 xbe path display</description>
+				<posx>570</posx>
+				<posy>295</posy>
+				<width>250</width>
+				<info>Skin.String(Button12xbe)</info>
+				<visible>Skin.HasSetting(Button12set)</visible>
+				<align>right</align>
+				<scroll>true</scroll>
+				<include>textcolorwhite</include>
 			</control>
 			<control type="image" id="46">
 				<description>Button Plain</description>
@@ -802,17 +802,6 @@
 				<align>-</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="53">
-				<description>Set button 13 label display</description>
-				<posx>570</posx>
-				<posy>215</posy>
-				<width>250</width>
-				<info>Skin.String(Button13label)</info>
-				<visible>Skin.HasSetting(Button13set)</visible>
-				<align>right</align>
-				<scroll>true</scroll>
-				<include>textcolorwhite</include>
-			</control>
 			<control type="button" id="53">
 				<description>Set button 13 label</description>
 				<posx>135</posx>
@@ -831,12 +820,12 @@
 				<align>-</align>
 				<aligny>center</aligny>
 			</control>
-			<control type="label" id="54">
-				<description>Set button 13 script path display</description>
+			<control type="label" id="53">
+				<description>Set button 13 label display</description>
 				<posx>570</posx>
-				<posy>255</posy>
+				<posy>215</posy>
 				<width>250</width>
-				<info>Skin.String(Button13script)</info>
+				<info>Skin.String(Button13label)</info>
 				<visible>Skin.HasSetting(Button13set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -861,23 +850,23 @@
 				<texturefocus>list-focus.png</texturefocus>
 				<texturenofocus>-</texturenofocus>
 			</control>
-			<control type="label" id="55">
-				<description>OR</description>
-				<posx>250</posx>
-				<posy>275</posy>
+			<control type="label" id="54">
+				<description>Set button 13 script path display</description>
+				<posx>570</posx>
+				<posy>255</posy>
 				<width>250</width>
-				<include>chanor</include>
+				<info>Skin.String(Button13script)</info>
 				<visible>Skin.HasSetting(Button13set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
 				<include>textcolorwhite</include>
 			</control>
 			<control type="label" id="55">
-				<description>Set button 13 xbe path display</description>
-				<posx>570</posx>
-				<posy>295</posy>
+				<description>OR</description>
+				<posx>250</posx>
+				<posy>275</posy>
 				<width>250</width>
-				<info>Skin.String(Button13xbe)</info>
+				<include>chanor</include>
 				<visible>Skin.HasSetting(Button13set)</visible>
 				<align>right</align>
 				<scroll>true</scroll>
@@ -901,6 +890,17 @@
 				<texturenofocus>-</texturenofocus>
 				<align>-</align>
 				<aligny>center</aligny>
+			</control>
+			<control type="label" id="55">
+				<description>Set button 13 xbe path display</description>
+				<posx>570</posx>
+				<posy>295</posy>
+				<width>250</width>
+				<info>Skin.String(Button13xbe)</info>
+				<visible>Skin.HasSetting(Button13set)</visible>
+				<align>right</align>
+				<scroll>true</scroll>
+				<include>textcolorwhite</include>
 			</control>
 			<control type="image" id="56">
 				<description>Button Plain</description>
