@@ -20,26 +20,6 @@
 			<include>textcolorwhite</include>
 			<include>homebuttonanimation</include>
 		</control>
-		<control type="button" id="9009">
-  		<description>Back</description>
-  		<posx>500</posx>
-  		<posy>15</posy>
-  		<width>200</width>
-  		<height>60</height>
-  		<include>backlabel</include>
-  		<font>font28</font>
-  		<align>center</align>
-  		<aligny>center</aligny>
-  		<include>textcolorblack</include>
-  		<onclick>ActivateWindow(1110)</onclick>
-  		<onleft>9006</onleft>
-  		<onright>9006</onright>
-  		<onup>9009</onup>
-  		<ondown>9009</ondown>
-  		<texturefocus>button-big-focus.png</texturefocus>
-  		<texturenofocus>button-big-nofocus.png</texturenofocus>
-			<include>homebuttonanimation</include>
-		</control>
 		<control type="image">
 			<description>Shutdown bar</description>
 			<posx>220</posx>
@@ -111,7 +91,7 @@
 				<onclick>XBMC.ShutDown()</onclick>
 				<pulseonselect>no</pulseonselect>
 				<onleft>3113</onleft>
-				<onright>3110</onright>
+				<onright>3114</onright>
 				<onup>3200</onup>
 				<ondown>3204</ondown>
 				<font>special24</font>
@@ -130,8 +110,8 @@
 				<texturenofocus>-</texturenofocus>
 				<onclick>XBMC.AlarmClock(shutdowntimer,XBMC.ShutDown(),30)</onclick>
 				<pulseonselect>no</pulseonselect>
-				<onleft>3113</onleft>
-				<onright>3110</onright>
+				<onleft>9000</onleft>
+				<onright>3114</onright>
 				<onup>3201</onup>
 				<ondown>3112</ondown>
 				<font>special24</font>
@@ -151,8 +131,8 @@
 				<texturenofocus>-</texturenofocus>
 				<onclick>XBMC.AlarmClock(shutdowntimer,XBMC.ShutDown(),60)</onclick>
 				<pulseonselect>no</pulseonselect>
-				<onleft>3113</onleft>
-				<onright>3110</onright>
+				<onleft>9000</onleft>
+				<onright>3114</onright>
 				<onup>3202</onup>
 				<ondown>3200</ondown>
 				<font>special24</font>
@@ -172,8 +152,8 @@
 				<texturenofocus>-</texturenofocus>
 				<onclick>XBMC.AlarmClock(shutdowntimer,XBMC.ShutDown(),120)</onclick>
 				<pulseonselect>no</pulseonselect>
-				<onleft>3113</onleft>
-				<onright>3110</onright>
+				<onleft>9000</onleft>
+				<onright>3114</onright>
 				<onup>3203</onup>
 				<ondown>3201</ondown>
 				<font>special24</font>
@@ -193,8 +173,8 @@
 				<texturenofocus>-</texturenofocus>
 				<onclick>XBMC.AlarmClock(shutdowntimer,XBMC.ShutDown())</onclick>
 				<pulseonselect>no</pulseonselect>
-				<onleft>3113</onleft>
-				<onright>3110</onright>
+				<onleft>9000</onleft>
+				<onright>3114</onright>
 				<onup>3204</onup>
 				<ondown>3202</ondown>
 				<font>special24</font>
@@ -214,8 +194,8 @@
 				<texturenofocus>-</texturenofocus>
 				<onclick>XBMC.CancelAlarm(shutdowntimer)</onclick>
 				<pulseonselect>no</pulseonselect>
-				<onleft>3113</onleft>
-				<onright>3110</onright>
+				<onleft>9000</onleft>
+				<onright>3114</onright>
 				<onup>3112</onup>
 				<ondown>3203</ondown>
 				<font>-</font>
@@ -252,8 +232,8 @@
     		<texturefocus>button-big-focus.png</texturefocus>
 				<onclick>XBMC.Reset()</onclick>
 				<pulseonselect>no</pulseonselect>
-				<onleft>3110</onleft>
-				<onright>3116</onright>
+				<onleft>3112</onleft>
+				<onright>9000</onright>
 				<onup>3115</onup>
 				<ondown>3115</ondown>
 				<font>special24</font>
@@ -272,8 +252,8 @@
 				<texturenofocus>-</texturenofocus>
 				<onclick>XBMC.RestartApp()</onclick>
 				<pulseonselect>no</pulseonselect>
-				<onleft>3110</onleft>
-				<onright>3116</onright>
+				<onleft>3112</onleft>
+				<onright>9000</onright>
 				<onup>3114</onup>
 				<ondown>3114</ondown>
 				<font>special24</font>
@@ -284,251 +264,169 @@
 				<visible allowhiddenfocus="true">Control.HasFocus(3115)</visible>
 			</control>
 		</control>
-			
+
+<!--- Bar Buttons -->
+
 		<control type="group" id="9000">
-			<!--- No Logon Yes Lock -->
+			<control type="button" id="3113">
+				<description>System Info button</description>
+				<visible>System.LoggedOn</visible>
+				<posx>235</posx>
+				<posy>435</posy>
+				<width>93</width>
+				<height>37</height>
+				<texturefocus>shutdown-info-fo.png</texturefocus>
+				<texturenofocus>shutdown-info-nf.png</texturenofocus>
+				<onclick>XBMC.ActivateWindow(7)</onclick>
+				<pulseonselect>no</pulseonselect>
+				<onleft>9009</onleft>
+				<onright>3110</onright>
+				<onup>9006</onup>
+				<ondown>9006</ondown>
+				<font>font12</font>
+				<aligny>center</aligny>
+				<align>left</align>
+				<textoffsetx>30</textoffsetx>
+				<include>info</include>
+				<include>shutdownmenu</include>
+			</control>
+			<control type="button" id="3110">
+				<description>Dashboard button</description>
+				<visible>System.LoggedOn</visible>
+				<posx>328</posx>
+				<posy>435</posy>
+				<width>93</width>
+				<height>37</height>
+				<texturefocus>shutdown-dash-fo.png</texturefocus>
+				<texturenofocus>shutdown-dash-nf.png</texturenofocus>
+				<onclick>XBMC.Dashboard()</onclick>
+				<pulseonselect>no</pulseonselect>
+				<onleft>3113</onleft>
+				<onright>3117</onright>
+				<onup>9006</onup>
+				<ondown>9006</ondown>
+				<font>font12</font>
+				<aligny>center</aligny>
+				<align>left</align>
+				<textoffsetx>30</textoffsetx>
+				<include>dash</include>
+				<include>shutdownmenu</include>
+			</control>
+			<control type="image" id="3116">
+				<description>Profile button disabled</description>
+				<visible>System.LoggedOn + !System.HasLoginScreen</visible>
+				<posx>452</posx>
+				<posy>435</posy>
+				<width>93</width>
+				<height>37</height>
+				<texture>shutdown-profile-dis.png</texture>
+				<include>shutdownmenu</include>
+			</control>
+			<control type="label" id="3116">
+				<description>Profile button disabled label</description>
+				<visible>System.LoggedOn + !System.HasLoginScreen</visible>
+				<posx>452</posx>
+				<posy>445</posy>
+				<width>150</width>
+				<height>37</height>
+				<label>$LOCALIZE[20126]</label>
+				<font>font12</font>
+				<include>textcolorgrey</include>
+				<include>shutdownmenu</include>
+			</control>
+			<control type="button" id="3117">
+				<description>Profile LogOff</description>
+				<visible>System.LoggedOn + System.HasLoginScreen</visible>
+				<posx>421</posx>
+				<posy>435</posy>
+				<width>93</width>
+				<height>37</height>
+				<texturefocus>shutdown-profile-fo.png</texturefocus>
+				<texturenofocus>shutdown-profile-nf.png</texturenofocus>
+				<onclick>dialog.close(all,true)</onclick>
+				<onclick>system.logoff</onclick>
+				<pulseonselect>no</pulseonselect>
+				<onleft>3110</onleft>
+				<onright>3116</onright>
+				<onup>9006</onup>
+				<ondown>9006</ondown>
+				<font>font12</font>
+				<aligny>center</aligny>
+				<align>left</align>
+				<textoffsetx>30</textoffsetx>
+				<label>$LOCALIZE[20126]</label>
+				<include>shutdownmenu</include>
+			</control>
+			<control type="image">
+				<description>Master mode button disabled</description>
+				<visible>System.LoggedOn + !System.HasLocks</visible>
+				<posx>514</posx>
+				<posy>435</posy>
+				<width>93</width>
+				<height>37</height>
+				<texture>shutdown-lock-dis.png</texture>
+				<include>shutdownmenu</include>
+			</control>
+			<control type="label">
+				<description>Master mode button disabled label</description>
+				<visible>System.LoggedOn + !System.HasLocks</visible>
+				<posx>545</posx>
+				<posy>445</posy>
+				<width>150</width>
+				<height>37</height>
+				<label>20045</label>
+				<font>font12</font>
+				<include>textcolorgrey</include>
+				<include>shutdownmenu</include>
+			</control>
 			<control type="togglebutton" id="3116">
 				<description>Master mode button</description>
-				<visible>System.LoggedOn + System.HasLocks + !System.HasLoginScreen</visible>
-				<posx>30</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
+				<visible>System.LoggedOn + System.HasLocks</visible>
+				<posx>514</posx>
+				<posy>435</posy>
+				<width>93</width>
+				<height>37</height>
 				<label>20045</label>
 				<altlabel>20046</altlabel>
-				<texturefocus>sub-master-focus.gif</texturefocus>
-				<texturenofocus>sub-master-nofocus.png</texturenofocus>
+				<texturefocus>shutdown-lock-fo.png</texturefocus>
+				<texturenofocus>shutdown-lock-nf.png</texturenofocus>
 				<usealttexture>System.IsMaster</usealttexture>
-				<alttexturefocus>sub-nomaster-focus.gif</alttexturefocus>
-				<alttexturenofocus>sub-nomaster-nofocus.png</alttexturenofocus>
+				<texturefocus>shutdown-lock-fo.png</texturefocus>
+				<texturenofocus>shutdown-lock-nf.png</texturenofocus>
 				<onclick>xbmc.mastermode</onclick>
 				<pulseonselect>no</pulseonselect>
-				<onleft>3114</onleft>
-				<onright>3113</onright>
-				<onup>3116</onup>
-				<ondown>3116</ondown>
-				<font>special24</font>
+				<onleft>3117</onleft>
+				<onright>9009</onright>
+				<onup>9006</onup>
+				<ondown>9006</ondown>
+				<font>font12</font>
+				<aligny>center</aligny>
+				<align>left</align>
+				<textoffsetx>30</textoffsetx>
 				<include>shutdownmenu</include>
 			</control>
-			<control type="button" id="3113">
-				<description>System Info button</description>
-				<visible>System.LoggedOn + System.HasLocks + !System.HasLoginScreen</visible>
-				<posx>90</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-info-focus.gif</texturefocus>
-				<texturenofocus>sub-info-nofocus.png</texturenofocus>
-				<onclick>XBMC.ActivateWindow(7)</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3116</onleft>
-				<onright>3112</onright>
-				<onup>3113</onup>
-				<ondown>3113</ondown>
-				<font>-</font>
-				<label>130</label>
-				<include>shutdownmenu</include>
-			</control>
-			<control type="button" id="3110">
-				<description>Dashboard button</description>
-				<visible>System.LoggedOn + System.HasLocks + !System.HasLoginScreen</visible>
-				<posx>210</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-exit-focus.gif</texturefocus>
-				<texturenofocus>sub-exit-nofocus.png</texturenofocus>
-				<onclick>XBMC.Dashboard()</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3112</onleft>
-				<onright>3114</onright>
-				<onup>3110</onup>
-				<ondown>3110</ondown>
-				<font>-</font>
-				<label>13006</label>
-				<include>shutdownmenu</include>
-			</control>
-			
-			<!--- No Logon no Lock -->
-			<control type="button" id="3113">
-				<description>System Info button</description>
-				<visible>System.LoggedOn + !System.HasLocks + !System.HasLoginScreen</visible>
-				<posx>60</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-info-focus.gif</texturefocus>
-				<texturenofocus>sub-info-nofocus.png</texturenofocus>
-				<onclick>XBMC.ActivateWindow(7)</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3114</onleft>
-				<onright>3112</onright>
-				<onup>3113</onup>
-				<ondown>3113</ondown>
-				<font>-</font>
-				<label>130</label>
-				<include>shutdownmenu</include>
-			</control>
-			<control type="button" id="3110">
-				<description>Dashboard button</description>
-				<visible>System.LoggedOn + !System.HasLocks + !System.HasLoginScreen</visible>
-				<posx>180</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-exit-focus.gif</texturefocus>
-				<texturenofocus>sub-exit-nofocus.png</texturenofocus>
-				<onclick>XBMC.Dashboard()</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3112</onleft>
-				<onright>3114</onright>
-				<onup>3110</onup>
-				<ondown>3110</ondown>
-				<font>-</font>
-				<label>13006</label>
-				<include>shutdownmenu</include>
-			</control>
-			<!-- Yes Logon No Locks -->
-			<control type="button" id="3113">
-				<description>System Info button</description>
-				<visible>System.LoggedOn + !System.HasLocks + System.HasLoginScreen</visible>
-				<posx>30</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-info-focus.gif</texturefocus>
-				<texturenofocus>sub-info-nofocus.png</texturenofocus>
-				<onclick>XBMC.ActivateWindow(7)</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3114</onleft>
-				<onright>3117</onright>
-				<onup>3113</onup>
-				<ondown>3113</ondown>
-				<font>-</font>
-				<label>130</label>
-				<include>shutdownmenu</include>
-			</control>
-			<control type="button" id="3117">
-				<description>Profile LogOff</description>
-				<visible>System.LoggedOn + !System.HasLocks + System.HasLoginScreen</visible>
-				<posx>90</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-logoff-focus.gif</texturefocus>
-				<texturenofocus>sub-logoff-nofocus.png</texturenofocus>
-				<onclick>dialog.close(all,true)</onclick>
-				<onclick>system.logoff</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3113</onleft>
-				<onright>3112</onright>
-				<onup>3117</onup>
-				<ondown>3117</ondown>
-				<font>-</font>
-				<label>$LOCALIZE[20126] $INFO[system.profilename]</label>
-				<include>shutdownmenu</include>
-			</control>
-			<control type="button" id="3110">
-				<description>Dashboard button</description>
-				<visible>System.LoggedOn + !System.HasLocks + System.HasLoginScreen</visible>
-				<posx>210</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-exit-focus.gif</texturefocus>
-				<texturenofocus>sub-exit-nofocus.png</texturenofocus>
-				<onclick>XBMC.Dashboard()</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3112</onleft>
-				<onright>3114</onright>
-				<onup>3110</onup>
-				<ondown>3110</ondown>
-				<font>-</font>
-				<label>13006</label>
-				<include>shutdownmenu</include>
-			</control>
-			<!--- Yes Logon Yes Locks -->
-			<control type="togglebutton" id="3118">
-				<description>Master mode button</description>
-				<visible>System.LoggedOn + System.HasLocks + System.HasLoginScreen</visible>
-				<posx>0</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<label>20046</label>
-				<altlabel>20045</altlabel>
-				<texturefocus>sub-master-focus.gif</texturefocus>
-				<texturenofocus>sub-master-nofocus.png</texturenofocus>
-				<usealttexture>System.IsMaster</usealttexture>
-				<alttexturefocus>sub-nomaster-focus.gif</alttexturefocus>
-				<alttexturenofocus>sub-nomaster-nofocus.png</alttexturenofocus>
-				<onclick>xbmc.mastermode</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3114</onleft>
-				<onright>3113</onright>
-				<onup>3118</onup>
-				<ondown>3118</ondown>
-				<font>-</font>
-				<include>shutdownmenu</include>
-			</control>
-			<control type="button" id="3113">
-				<description>System Info button</description>
-				<visible>System.LoggedOn + System.HasLocks + System.HasLoginScreen</visible>
-				<posx>60</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-info-focus.gif</texturefocus>
-				<texturenofocus>sub-info-nofocus.png</texturenofocus>
-				<onclick>XBMC.ActivateWindow(7)</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3118</onleft>
-				<onright>3117</onright>
-				<onup>3113</onup>
-				<ondown>3113</ondown>
-				<font>-</font>
-				<label>130</label>
-				<include>shutdownmenu</include>
-			</control>
-			<control type="button" id="3117">
-				<description>Profile LogOff</description>
-				<visible>System.LoggedOn + System.HasLocks + System.HasLoginScreen</visible>
-				<posx>120</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-logoff-focus.gif</texturefocus>
-				<texturenofocus>sub-logoff-nofocus.png</texturenofocus>
-				<onclick>dialog.close(all,true)</onclick>
-				<onclick>system.logoff</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3113</onleft>
-				<onright>3112</onright>
-				<onup>3117</onup>
-				<ondown>3117</ondown>
-				<font>-</font>
-				<label>$LOCALIZE[20126] $INFO[system.profilename]</label>
-				<include>shutdownmenu</include>
-			</control>
-			<control type="button" id="3110">
-				<description>Dashboard button</description>
-				<visible>System.LoggedOn + System.HasLocks + System.HasLoginScreen</visible>
-				<posx>240</posx>
-				<posy>5</posy>
-				<width>60</width>
-				<height>65</height>
-				<texturefocus>sub-exit-focus.gif</texturefocus>
-				<texturenofocus>sub-exit-nofocus.png</texturenofocus>
-				<onclick>XBMC.Dashboard()</onclick>
-				<pulseonselect>no</pulseonselect>
-				<onleft>3112</onleft>
-				<onright>3114</onright>
-				<onup>3110</onup>
-				<ondown>3110</ondown>
-				<font>-</font>
-				<label>13006</label>
-				<include>shutdownmenu</include>
-			</control>
+  		<control type="button" id="9009">
+    		<description>Back</description>
+				<visible>System.LoggedOn</visible>
+    		<posx>500</posx>
+    		<posy>15</posy>
+    		<width>200</width>
+    		<height>60</height>
+    		<include>backlabel</include>
+    		<font>font28</font>
+    		<align>center</align>
+    		<aligny>center</aligny>
+    		<include>textcolorblack</include>
+    		<onclick>ActivateWindow(1110)</onclick>
+    		<onleft>3116</onleft>
+    		<onright>3113</onright>
+    		<onup>9006</onup>
+    		<ondown>9006</ondown>
+    		<texturefocus>button-big-focus.png</texturefocus>
+    		<texturenofocus>button-big-nofocus.png</texturenofocus>
+  			<include>homebuttonanimation</include>
+		</control>
+
 			<!--- Logon Screen -->
 			<control type="button" id="3110">
 				<description>Dashboard button</description>
@@ -622,46 +520,19 @@
 				<visible>[Control.HasFocus(3114) | Control.HasFocus(3115)]</visible>
 			</control>
 		</control>
-		<control type="image" id="0">
-			<posx>-245</posx>
-			<posy>-40</posy>
-			<width>805</width>
-			<height>41</height>
-			<texture>sub-background-label.png</texture>
-			<include>shutdownmenu</include>
-			<visible>system.hasloginscreen + System.Loggedon</visible>
-		</control>
+		
 		<control type="label">
 			<description>Label control</description>
-			<posx>19</posx>
-			<posy>90</posy>
-			<width>322</width>
+			<posx>220</posx>
+			<posy>475</posy>
+			<width>450</width>
 			<height>20</height>
 			<label>$LOCALIZE[20125] $INFO[system.profilename]</label>
 			<align>center</align>
-			<font>font12</font>
+			<font>special12</font>
 			<include>shutdownmenu</include>
 			<include>textcolorwhite</include>
 			<visible>system.hasloginscreen + System.Loggedon</visible>
-		</control>
-		<control type="image" id="0">
-			<posx>-245</posx>
-			<posy>84</posy>
-			<width>805</width>
-			<height>41</height>
-			<texture>sub-background-label.png</texture>
-			<include>shutdownmenu</include>
-		</control>
-		<control type="label" id="3100">
-			<description>Label control</description>
-			<posx>19</posx>
-			<posy>94</posy>
-			<width>322</width>
-			<height>20</height>
-			<align>center</align>
-			<font>font12</font>
-			<include>textcolorwhite</include>
-			<include>shutdownmenu</include>
 		</control>
 	</controls>
 </window>

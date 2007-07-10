@@ -28,6 +28,13 @@
 	<include name="button13"><label>Power</label></include>
 <!-- End home includes -->
 
+<!-- Start shutdown includes -->
+	<include name="info"><label>info</label></include>
+	<include name="dash"><label>dash</label></include>
+	<include name="log"><label>log off</label></include>
+	<include name="locks"><label>locks</label></include>
+<!-- End shutdown includes -->
+
 <!-- Start system includes -->
 	<include name="backlabel"><label>Back</label></include>
 	<include name="menulabel"><label>Menu</label></include>
