@@ -1,0 +1,14 @@
+#summary See screenshots of the Xii skin for XBMC.
+
+= Screenshots =
+
+Here are some screenshots of the Xii skin for XBMC.  Keep in mind the project is a slow ongoing process so the screens may change or look different than the actual skin.
+
+*_Keyboard_*:
+
+
+  * Automatic links to other wiki pages
+
+
+
+
