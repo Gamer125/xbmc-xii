@@ -73,8 +73,8 @@
 				<ondown>50</ondown>
 				<label>-</label>
 				<pulseonselect>false</pulseonselect>
-    		<texturefocus>button-viewas-focus.png</texturefocus>
-    		<texturenofocus>button-viewas-nofocus.png</texturenofocus>
+    				<texturefocus>button-viewas-focus.png</texturefocus>
+    				<texturenofocus>button-viewas-nofocus.png</texturenofocus>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<textxoff>5</textxoff>
@@ -247,8 +247,8 @@
 				<label>-</label>
 				<pulseonselect>false</pulseonselect>
 				<wrapmultiline>true</wrapmultiline> 
-    		<texturefocus>button-tile-focus.png</texturefocus>
-    		<texturenofocus>button-tile-nofocus.png</texturenofocus>
+    				<texturefocus>button-tile-focus.png</texturefocus>
+    				<texturenofocus>button-tile-nofocus.png</texturenofocus>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<textxoff>5</textxoff>
@@ -305,8 +305,8 @@
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<pulseonselect>false</pulseonselect>
-    		<texturefocus>button-search-focus.png</texturefocus>
-    		<texturenofocus>button-search-nofocus.png</texturenofocus>
+    		<texturefocus>button-slide-focus.png</texturefocus>
+    		<texturenofocus>button-slide-nofocus.png</texturenofocus>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>
@@ -347,8 +347,8 @@
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<pulseonselect>false</pulseonselect>
-    		<texturefocus>button-show-focus.png</texturefocus>
-    		<texturenofocus>button-show-nofocus.png</texturenofocus>
+    		<texturefocus>button-rslide-focus.png</texturefocus>
+    		<texturenofocus>button-rslide-nofocus.png</texturenofocus>
 				<textcolor>00ffffff</textcolor>
 				<align>center</align>
 				<aligny>top</aligny>
