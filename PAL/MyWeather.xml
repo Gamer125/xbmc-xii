@@ -206,7 +206,7 @@
 			<posy>290</posy>
 			<width>111</width>
 			<height>183</height>
-			<texture>background-blue.png</texture>
+			<texture>keyboard-btn-space-nf.png</texture>
 			<include>contentpanelslide</include>
 		</control>
 		<control type="image" id="1">
@@ -417,7 +417,7 @@
 			<align>center</align>
 			<width>110</width>
 			<posx>111</posx>
-			<posy>328</posy>
+			<posy>318</posy>
 			<label>-</label>
 			<font>font10</font>
 			<include>contentpanelslide</include>
@@ -427,7 +427,7 @@
 			<align>center</align>
 			<width>110</width>
 			<posx>111</posx>
-			<posy>350</posy>
+			<posy>330</posy>
 			<label>-</label>
 			<font>font10</font>
 			<include>contentpanelslide</include>
@@ -439,7 +439,7 @@
 			<width>110</width>
 			<wrapmultiline>true</wrapmultiline>
 			<posx>111</posx>
-			<posy>445</posy>
+			<posy>425</posy>
 			<label>-</label>
 			<font>font10</font>
 			<include>contentpanelslide</include>
@@ -447,7 +447,7 @@
 		<control type="image" id="35">
 			<description>day 0 icon</description>
 			<posx>131</posx>
-			<posy>375</posy>
+			<posy>355</posy>
 			<height>64</height>
 			<width>64</width>
 			<texture>background-myweather.png</texture>
@@ -469,7 +469,7 @@
 			<align>center</align>
 			<width>110</width>
 			<posx>229</posx>
-			<posy>328</posy>
+			<posy>313</posy>
 			<label>-</label>
 			<font>font10</font>
 			<include>contentpanelslide</include>
@@ -479,7 +479,7 @@
 			<align>center</align>
 			<width>110</width>
 			<posx>229</posx>
-			<posy>350</posy>
+			<posy>330</posy>
 			<label>-</label>
 			<font>font10</font>
 			<include>contentpanelslide</include>
@@ -491,7 +491,7 @@
 			<width>110</width>
 			<wrapmultiline>true</wrapmultiline>
 			<posx>229</posx>
-			<posy>445</posy>
+			<posy>425</posy>
 			<label>-</label>
 			<font>font10</font>
 			<include>contentpanelslide</include>
@@ -499,7 +499,7 @@
 		<control type="image" id="45">
 			<description>day 1 icon</description>
 			<posx>249</posx>
-			<posy>375</posy>
+			<posy>355</posy>
 			<height>64</height>
 			<width>64</width>
 			<texture>background-myweather.png</texture>

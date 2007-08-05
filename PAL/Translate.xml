@@ -29,10 +29,9 @@
 <!-- End home includes -->
 
 <!-- Start shutdown includes -->
-	<include name="info"><label>info</label></include>
-	<include name="dash"><label>dash</label></include>
-	<include name="log"><label>log off</label></include>
-	<include name="locks"><label>locks</label></include>
+	<include name="info"><label>Info</label></include>
+	<include name="dash"><label>Dash</label></include>
+	<include name="login"><label>No login</label></include>
 <!-- End shutdown includes -->
 
 <!-- Start system includes -->

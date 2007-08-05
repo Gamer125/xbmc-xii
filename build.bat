@@ -6,7 +6,7 @@ md BUILD
 
 ECHO ------------------------------
 ECHO Creating XPR Files...
-CALL media\XBMCTex.bat
+CALL XBMCTex.bat
 
 ECHO ------------------------------
 ECHO Copying XPR Files...
