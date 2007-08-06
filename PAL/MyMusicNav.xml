@@ -513,7 +513,7 @@
 			<width>35</width>
 			<height>35</height>
 			<texture>slider_up.png</texture>
-			<visible>!Skin.HasSetting(UseScrollbars) + Control.IsVisible(61)</visible>
+			<visible>!Skin.HasSetting(UseScrollbars) + Control.IsVisible(60)</visible>
 		</control>
 		<control type="image" id="1">
 			<description>Slider Down image</description>
@@ -522,7 +522,7 @@
 			<width>35</width>
 			<height>35</height>
 			<texture>slider_down.png</texture>
-			<visible>!Skin.HasSetting(UseScrollbars) + Control.IsVisible(61)</visible>
+			<visible>!Skin.HasSetting(UseScrollbars) + Control.IsVisible(60)</visible>
 		</control>
 		
 		<control type="image" id="0">
