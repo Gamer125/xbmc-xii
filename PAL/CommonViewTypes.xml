@@ -1117,9 +1117,9 @@
 	<include name="AllViewCommonPageControls">
 		<control type="scrollbar" id="60">
 			<posx>588</posx>
-			<posy>124</posy>
-			<width>35</width>
-			<height>325</height>
+			<posy>127</posy>
+			<width>34</width>
+			<height>317</height>
 			<texturesliderbackground border="4">slider_background.png</texturesliderbackground>
 			<texturesliderbar border="3">slider_bar.png</texturesliderbar>
 			<texturesliderbarfocus border="3">slider_bar_focus.png</texturesliderbarfocus>
@@ -1131,13 +1131,13 @@
 			<orientation>vertical</orientation>
 			<include>contentpanelslide</include>
 			<visible>!Skin.HasSetting(UseScrollbars)</visible>
-      <visible>!Control.IsVisible(57)</visible>
+      			<visible>!Control.IsVisible(57)</visible>
 		</control>
 		<control type="spincontrol" id="60">
 			<description>Next page button</description>
 			<posx>455</posx>
 			<posy>490</posy>
-			<height>80</height>
+			<height>75</height>
 			<width>120</width>
 			<subtype>page</subtype>
 			<font>font20</font>
@@ -1147,15 +1147,15 @@
 			<onup>50</onup>
 			<showonepage>true</showonepage>
 			<reverse>false</reverse>
-  		<textureup>button-rpage-nofocus.png</textureup>
-  		<texturedown>button-lpage-nofocus.png</texturedown>
-  		<textureupfocus>button-rpage-focus.png</textureupfocus>
-  		<texturedownfocus>button-lpage-focus.png</texturedownfocus>
+  			<textureup>button-rpage-nofocus.png</textureup>
+  			<texturedown>button-lpage-nofocus.png</texturedown>
+  			<textureupfocus>button-rpage-focus.png</textureupfocus>
+  			<texturedownfocus>button-lpage-focus.png</texturedownfocus>
 			<include>contentpanelslide</include>
 			<include>textcolorblack</include>
 			<textoffsetx>137</textoffsetx>
 			<visible>Skin.HasSetting(UseScrollbars)</visible>
-      <visible>!Control.IsVisible(57)</visible>
+      			<visible>!Control.IsVisible(57)</visible>
 		</control>
 	</include>
 </includes>

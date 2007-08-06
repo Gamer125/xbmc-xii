@@ -508,21 +508,21 @@
 		
 		<control type="image" id="1">
 			<description>Slider Up image</description>
-			<posx>587</posx>
+			<posx>588</posx>
 			<posy>92</posy>
 			<width>35</width>
 			<height>35</height>
 			<texture>slider_up.png</texture>
-			<visible>!Skin.HasSetting(UseScrollbars) + Control.IsVisible(60)</visible>
+			<visible>!Skin.HasSetting(UseScrollbars) + Control.IsVisible(61)</visible>
 		</control>
 		<control type="image" id="1">
 			<description>Slider Down image</description>
-			<posx>587</posx>
-			<posy>443</posy>
+			<posx>588</posx>
+			<posy>444</posy>
 			<width>35</width>
 			<height>35</height>
 			<texture>slider_down.png</texture>
-			<visible>!Skin.HasSetting(UseScrollbars) + Control.IsVisible(60)</visible>
+			<visible>!Skin.HasSetting(UseScrollbars) + Control.IsVisible(61)</visible>
 		</control>
 		
 		<control type="image" id="0">
