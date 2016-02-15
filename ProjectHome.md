@@ -1,0 +1,1 @@
+Xbox Media Center supports an advanced skinning engine for custom looks and feel.  This skin aims to bring the Wii interface to the Xbox and give users another option to change the way xbmc looks.
